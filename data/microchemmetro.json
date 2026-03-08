@@ -1,0 +1,125 @@
+{
+  "rstl": {
+    "microbiological": {
+      "water_tests": [
+        {"test": "Heterotrophic Plate Count", "method": "Pour Plate", "fee": 550},
+        {"test": "Total Coliform Count", "method": "MPN", "fee": 550},
+        {"test": "Fecal Coliform Count", "method": "MPN", "fee": 550},
+        {"test": "Escherichia coli Count", "method": "MPN", "fee": 1000}
+      ],
+      "water_packages": [
+        {"name": "Package 1", "inclusions": "HPC, TCC, FCC", "fee": 1200},
+        {"name": "Package 2", "inclusions": "TCC, FCC", "fee": 650},
+        {"name": "Package 3", "inclusions": "HPC, TCC, E. coli", "fee": 1700},
+        {"name": "Package 4", "inclusions": "TCC, E. coli", "fee": 1100}
+      ],
+      "food_feeds": [
+        {"test": "Aerobic Plate Count", "method": "Pour Plate", "fee": 550},
+        {"test": "Total Coliform Count", "method": "MPN", "fee": 550},
+        {"test": "Yeast and Molds Count", "method": "Pour Plate", "fee": 550},
+        {"test": "Escherichia coli Count", "method": "MPN", "fee": 1000}
+      ],
+      "plant_extract": [{"test": "Antimicrobial Susceptibility Test (PDD)", "fee": 600}]
+    },
+    "chemical": {
+      "water_tests": [
+        {"test": "Arsenic", "method": "HVS-FAAS", "fee": 1060},
+        {"test": "Cadmium", "method": "GFAS", "fee": 1000},
+        {"test": "Color", "method": "Platinum Cobalt", "fee": 300},
+        {"test": "Lead", "method": "GFAS", "fee": 1000},
+        {"test": "Nitrates", "method": "Spectrophotometry", "fee": 850},
+        {"test": "pH", "method": "Potentiometry", "fee": 350},
+        {"test": "Total Dissolved Solids", "method": "Gravimetry", "fee": 600},
+        {"test": "Turbidity", "method": "Nephelometric", "fee": 300},
+        {"test": "Residual Chlorine", "method": "Spectrophotometry", "fee": 400}
+      ],
+      "water_packages": [
+        {"params": 7, "fee": 2000},
+        {"params": 8, "fee": 2800},
+        {"params": 9, "fee": 3200}
+      ],
+      "food_feeds": [
+        {"test": "Crude Fat", "method": "Solvent Extraction", "fee": 960},
+        {"test": "Crude Protein", "method": "Block Digestion", "fee": 1000},
+        {"test": "Ethanol in Wine", "method": "Steam Distillation Pycnometer", "fee": 470},
+        {"test": "Moisture", "method": "Air Oven", "fee": 400},
+        {"test": "Total Acidity", "method": "Titrimetry", "fee": 300},
+        {"test": "Ash", "method": "Gravimetry", "fee": 550}
+      ],
+      "plant_extract": [{"test": "Phytochemical Screening", "fee": 487.5}]
+    },
+    "sample_size": [
+      {"type": "Foods and Feeds", "test": "Chemical", "amount": "Solid: 500g, Liquid: 500mL"},
+      {"type": "Foods and Feeds", "test": "Microbiological", "amount": "Solid: 250g, Liquid: 500mL"},
+      {"type": "Water", "test": "Chemical", "amount": "1000 mL"},
+      {"type": "Water", "test": "Microbiological", "amount": "500 mL (sterile, within 6 hrs)"},
+      {"type": "Plant Extracts", "test": "Chemical", "amount": "250 mL"},
+      {"type": "Plant Extracts", "test": "Microbiological", "amount": "200 mL"}
+    ],
+    "researcher_services": [
+      {"service": "Sterilization & Decontamination", "fee": 160, "unit": "hour"},
+      {"service": "Drying of Plant Sample", "fee": 150, "unit": "hour"},
+      {"service": "Incubation", "fee": 150, "unit": "hour"}
+    ]
+  },
+  "rml": {
+    "pressure": [
+      {"device": "Pressure Gauges (up to 70 MPa)", "fee": 900},
+      {"device": "Sphygmomanometers (up to 300 mmHg)", "fee": 900}
+    ],
+    "thermometry_hygrometry": [
+      {"device": "Thermometers (-20 to 150 ºC)", "fee": 1700, "note": "first 5 set points; +500 per extra"},
+      {"device": "Thermo-hygrometers", "fee": 1500, "note": "1 temp + 1 humidity sensor"},
+      {"device": "Room/Wall/Freezer Thermometers (0-45 ºC)", "fee": 1000, "note": "6 set points"},
+      {"device": "Temperature-Controlled Enclosures (up to 150 ºC)", "fee": 2100, "note": "1 set point; +500 per extra"}
+    ],
+    "length": [
+      {"device": "Rules (300 mm and below)", "fee": 500},
+      {"device": "Rules (>300 mm - 600 mm)", "fee": 650},
+      {"device": "Rules (>600 mm)", "fee": 900},
+      {"device": "Height Boards", "fee": 900},
+      {"device": "Calipers (0-250 mm)", "fee": 1225}
+    ],
+    "mass": {
+      "test_weights_f2": [{"range": "Up to 5 kg", "fee": 600}, {"range": "10–20 kg", "fee": 800}],
+      "test_weights_m": [{"range": "Up to 5 kg", "fee": 450}, {"range": "10–20 kg", "fee": 600}, {"range": "25–50 kg", "fee": 700}],
+      "weighing_instruments": [
+        {"accuracy": "Special", "fee": 1200},
+        {"accuracy": "High", "fee": 1000},
+        {"accuracy": "Medium", "fee": 900},
+        {"accuracy": "Ordinary", "fee": 800},
+        {"note": "Per additional tonnage", "fee": 50}
+      ]
+    },
+    "volume": {
+      "test_measures": [{"capacity": "5–10 L", "fee": 500}, {"capacity": "20–50 L", "fee": 600}],
+      "proving_tanks": [{"capacity": "100–400 L", "fee": 1500}, {"capacity": "500–2000 L", "fee": 3000}],
+      "lab_instruments": [
+        {"device": "Graduated Pipettes", "fee": 600},
+        {"device": "Volumetric Pipettes", "fee": 600},
+        {"device": "Volumetric Flasks", "fee": 600},
+        {"device": "Graduated Cylinders (5 pts)", "fee": 600},
+        {"device": "Burettes (5 pts)", "fee": 1500},
+        {"device": "Piston-operated Volumetric Apparatus", "fee": 1500}
+      ],
+      "fuel_dispensing": [{"service": "Volume Delivered per Nozzle", "fee": 700}],
+      "road_tankers": [
+        {"range": "5000 L and below", "fee": 1000},
+        {"range": ">5000–10000 L", "fee": 1500},
+        {"range": ">10000–15000 L", "fee": 2000},
+        {"range": ">15000–20000 L", "fee": 2500},
+        {"range": ">20000–25000 L", "fee": 3000},
+        {"range": ">25000–30000 L", "fee": 3500},
+        {"range": ">30000–35000 L", "fee": 4000},
+        {"range": ">30000–40000 L", "fee": 4500},
+        {"range": ">40000–45000 L", "fee": 5000},
+        {"range": ">45000–50000 L", "fee": 5500},
+        {"range": "50000 L and above", "fee": 6000}
+      ]
+    },
+    "onsite": [
+      {"distance": "Within 50 km", "fee": 2000, "unit": "per day per team"},
+      {"distance": "More than 50 km", "fee": 3000, "unit": "per day per team"}
+    ]
+  }
+}

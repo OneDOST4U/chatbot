@@ -1,0 +1,43 @@
+{
+  "table_number": 28,
+  "title": "Number of Households Reporting Land Ownership by Type of Land, and City/Municipality: 2020",
+  "source": "Philippine Statistics Authority, 2020 Census of Population and Housing",
+  "province": "Cagayan",
+  "year": 2020,
+  "notes": [
+    "Excludes households enumerated as homeless.",
+    "CARP: Comprehensive Agrarian Reform Program"
+  ],
+  "data": [
+    { "municipality": "CAGAYAN", "total_households": 301510, "households_with_other_land_owned": 107561, "other_residential_land": 39386, "agricultural_land": 89687, "agricultural_land_carp": 7788, "other_lands": 467 },
+    { "municipality": "ABULUG", "total_households": 8164, "households_with_other_land_owned": 2886, "other_residential_land": 1005, "agricultural_land": 2459, "agricultural_land_carp": 332, "other_lands": 38 },
+    { "municipality": "ALCALA", "total_households": 9991, "households_with_other_land_owned": 5077, "other_residential_land": 1572, "agricultural_land": 4382, "agricultural_land_carp": 512, "other_lands": 18 },
+    { "municipality": "ALLACAPAN", "total_households": 8389, "households_with_other_land_owned": 4030, "other_residential_land": 1199, "agricultural_land": 3647, "agricultural_land_carp": 295, "other_lands": 7 },
+    { "municipality": "AMULUNG", "total_households": 11891, "households_with_other_land_owned": 4594, "other_residential_land": 1124, "agricultural_land": 4088, "agricultural_land_carp": 372, "other_lands": 15 },
+    { "municipality": "APARRI", "total_households": 15781, "households_with_other_land_owned": 2982, "other_residential_land": 1045, "agricultural_land": 2411, "agricultural_land_carp": 84, "other_lands": 13 },
+    { "municipality": "BAGGAO", "total_households": 21486, "households_with_other_land_owned": 11989, "other_residential_land": 2806, "agricultural_land": 11041, "agricultural_land_carp": 898, "other_lands": 82 },
+    { "municipality": "BALLESTEROS", "total_households": 8765, "households_with_other_land_owned": 2524, "other_residential_land": 1261, "agricultural_land": 1995, "agricultural_land_carp": 236, "other_lands": 10 },
+    { "municipality": "BUGUEY", "total_households": 7658, "households_with_other_land_owned": 2162, "other_residential_land": 777, "agricultural_land": 1810, "agricultural_land_carp": 306, "other_lands": 28 },
+    { "municipality": "CALAYAN", "total_households": 4250, "households_with_other_land_owned": 2747, "other_residential_land": 1330, "agricultural_land": 2395, "agricultural_land_carp": 26, "other_lands": 8 },
+    { "municipality": "CAMALANIUGAN", "total_households": 6112, "households_with_other_land_owned": 1664, "other_residential_land": 444, "agricultural_land": 1412, "agricultural_land_carp": 91, "other_lands": 0 },
+    { "municipality": "CLAVERIA", "total_households": 8223, "households_with_other_land_owned": 2339, "other_residential_land": 1107, "agricultural_land": 1890, "agricultural_land_carp": 82, "other_lands": 15 },
+    { "municipality": "ENRILE", "total_households": 8235, "households_with_other_land_owned": 1973, "other_residential_land": 594, "agricultural_land": 1613, "agricultural_land_carp": 80, "other_lands": 21 },
+    { "municipality": "GATTARAN", "total_households": 14210, "households_with_other_land_owned": 6656, "other_residential_land": 2533, "agricultural_land": 5775, "agricultural_land_carp": 423, "other_lands": 25 },
+    { "municipality": "GONZAGA", "total_households": 9684, "households_with_other_land_owned": 3726, "other_residential_land": 1563, "agricultural_land": 3131, "agricultural_land_carp": 159, "other_lands": 11 },
+    { "municipality": "IGUIG", "total_households": 7015, "households_with_other_land_owned": 1929, "other_residential_land": 832, "agricultural_land": 1451, "agricultural_land_carp": 134, "other_lands": 11 },
+    { "municipality": "LAL-LO", "total_households": 11612, "households_with_other_land_owned": 4754, "other_residential_land": 1660, "agricultural_land": 4129, "agricultural_land_carp": 267, "other_lands": 28 },
+    { "municipality": "LASAM", "total_households": 9889, "households_with_other_land_owned": 3832, "other_residential_land": 997, "agricultural_land": 3339, "agricultural_land_carp": 263, "other_lands": 5 },
+    { "municipality": "PAMPLONA", "total_households": 5850, "households_with_other_land_owned": 2032, "other_residential_land": 809, "agricultural_land": 1685, "agricultural_land_carp": 127, "other_lands": 8 },
+    { "municipality": "PEÑABLANCA", "total_households": 11594, "households_with_other_land_owned": 4777, "other_residential_land": 1399, "agricultural_land": 4247, "agricultural_land_carp": 230, "other_lands": 17 },
+    { "municipality": "PIAT", "total_households": 6122, "households_with_other_land_owned": 2505, "other_residential_land": 616, "agricultural_land": 2234, "agricultural_land_carp": 491, "other_lands": 21 },
+    { "municipality": "RIZAL", "total_households": 4485, "households_with_other_land_owned": 2208, "other_residential_land": 560, "agricultural_land": 1983, "agricultural_land_carp": 154, "other_lands": 5 },
+    { "municipality": "SANCHEZ-MIRA", "total_households": 6645, "households_with_other_land_owned": 1718, "other_residential_land": 761, "agricultural_land": 1391, "agricultural_land_carp": 192, "other_lands": 13 },
+    { "municipality": "SANTA ANA", "total_households": 8202, "households_with_other_land_owned": 2634, "other_residential_land": 1585, "agricultural_land": 1874, "agricultural_land_carp": 202, "other_lands": 8 },
+    { "municipality": "SANTA PRAXEDES", "total_households": 1070, "households_with_other_land_owned": 352, "other_residential_land": 154, "agricultural_land": 284, "agricultural_land_carp": 30, "other_lands": 0 },
+    { "municipality": "SANTA TERESITA", "total_households": 4926, "households_with_other_land_owned": 1655, "other_residential_land": 584, "agricultural_land": 1390, "agricultural_land_carp": 294, "other_lands": 5 },
+    { "municipality": "SANTO NIÑO (FAIRE)", "total_households": 7174, "households_with_other_land_owned": 3600, "other_residential_land": 1340, "agricultural_land": 3124, "agricultural_land_carp": 177, "other_lands": 8 },
+    { "municipality": "SOLANA", "total_households": 21406, "households_with_other_land_owned": 6728, "other_residential_land": 1904, "agricultural_land": 5661, "agricultural_land_carp": 844, "other_lands": 7 },
+    { "municipality": "TUAO", "total_households": 14785, "households_with_other_land_owned": 5532, "other_residential_land": 1698, "agricultural_land": 4858, "agricultural_land_carp": 211, "other_lands": 7 },
+    { "municipality": "TUGUEGARAO CITY (Capital)", "total_households": 37896, "households_with_other_land_owned": 7956, "other_residential_land": 6127, "agricultural_land": 3988, "agricultural_land_carp": 276, "other_lands": 33 }
+  ]
+}

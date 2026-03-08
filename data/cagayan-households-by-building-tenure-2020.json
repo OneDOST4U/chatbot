@@ -1,0 +1,4270 @@
+{
+  "table_number": 27,
+  "title": "Number of Households by Type of Building, Tenure Status of the Housing Unit/Lot, and City/Municipality: 2020",
+  "source": "Philippine Statistics Authority, 2020 Census of Population and Housing",
+  "province": "Cagayan",
+  "year": 2020,
+  "note": "Excludes households enumerated in relocation areas and enumerated as homeless.",
+  "data": {
+    "CAGAYAN": {
+      "Total": {
+        "total_households": 301509,
+        "building_type": {
+          "single_house": 290801,
+          "duplex": 6854,
+          "apartment_accessoria_rowhouse": 2005,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1453,
+          "commercial_industrial_agricultural": 368,
+          "institutional_living_quarter": 28,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 224838,
+        "building_type": {
+          "single_house": 218516,
+          "duplex": 4661,
+          "apartment_accessoria_rowhouse": 525,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 939,
+          "commercial_industrial_agricultural": 180,
+          "institutional_living_quarter": 17,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 9669,
+        "building_type": {
+          "single_house": 9199,
+          "duplex": 286,
+          "apartment_accessoria_rowhouse": 79,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 96,
+          "commercial_industrial_agricultural": 9,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 47631,
+        "building_type": {
+          "single_house": 46475,
+          "duplex": 953,
+          "apartment_accessoria_rowhouse": 79,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 111,
+          "commercial_industrial_agricultural": 11,
+          "institutional_living_quarter": 2,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 2502,
+        "building_type": {
+          "single_house": 2429,
+          "duplex": 58,
+          "apartment_accessoria_rowhouse": 9,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 4,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 5913,
+        "building_type": {
+          "single_house": 4068,
+          "duplex": 396,
+          "apartment_accessoria_rowhouse": 1176,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 169,
+          "commercial_industrial_agricultural": 100,
+          "institutional_living_quarter": 4,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 10587,
+        "building_type": {
+          "single_house": 9755,
+          "duplex": 494,
+          "apartment_accessoria_rowhouse": 134,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 134,
+          "commercial_industrial_agricultural": 66,
+          "institutional_living_quarter": 4,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 368,
+        "building_type": {
+          "single_house": 358,
+          "duplex": 6,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 1,
+        "building_type": {
+          "single_house": 1,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "ABULUG": {
+      "Total": {
+        "total_households": 8164,
+        "building_type": {
+          "single_house": 7983,
+          "duplex": 133,
+          "apartment_accessoria_rowhouse": 36,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 6,
+          "commercial_industrial_agricultural": 6,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 5841,
+        "building_type": {
+          "single_house": 5739,
+          "duplex": 93,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 4,
+          "commercial_industrial_agricultural": 4,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 257,
+        "building_type": {
+          "single_house": 255,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1406,
+        "building_type": {
+          "single_house": 1377,
+          "duplex": 28,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 31,
+        "building_type": {
+          "single_house": 31,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 108,
+        "building_type": {
+          "single_house": 68,
+          "duplex": 6,
+          "apartment_accessoria_rowhouse": 30,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 478,
+        "building_type": {
+          "single_house": 470,
+          "duplex": 4,
+          "apartment_accessoria_rowhouse": 4,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 43,
+        "building_type": {
+          "single_house": 43,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "ALCALA": {
+      "Total": {
+        "total_households": 9991,
+        "building_type": {
+          "single_house": 9820,
+          "duplex": 158,
+          "apartment_accessoria_rowhouse": 2,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 9,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 8261,
+        "building_type": {
+          "single_house": 8134,
+          "duplex": 116,
+          "apartment_accessoria_rowhouse": 2,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 8,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 138,
+        "building_type": {
+          "single_house": 136,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1218,
+        "building_type": {
+          "single_house": 1189,
+          "duplex": 28,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 71,
+        "building_type": {
+          "single_house": 71,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 47,
+        "building_type": {
+          "single_house": 44,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 231,
+        "building_type": {
+          "single_house": 222,
+          "duplex": 9,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 25,
+        "building_type": {
+          "single_house": 24,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "ALLACAPAN": {
+      "Total": {
+        "total_households": 8389,
+        "building_type": {
+          "single_house": 8289,
+          "duplex": 74,
+          "apartment_accessoria_rowhouse": 2,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 3,
+          "commercial_industrial_agricultural": 21,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 5317,
+        "building_type": {
+          "single_house": 5270,
+          "duplex": 38,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 7,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 141,
+        "building_type": {
+          "single_house": 136,
+          "duplex": 4,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 2501,
+        "building_type": {
+          "single_house": 2479,
+          "duplex": 21,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 71,
+        "building_type": {
+          "single_house": 71,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 96,
+        "building_type": {
+          "single_house": 84,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 10,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 260,
+        "building_type": {
+          "single_house": 246,
+          "duplex": 11,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 3,
+        "building_type": {
+          "single_house": 3,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "AMULUNG": {
+      "Total": {
+        "total_households": 11891,
+        "building_type": {
+          "single_house": 11737,
+          "duplex": 127,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 19,
+          "commercial_industrial_agricultural": 8,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 7870,
+        "building_type": {
+          "single_house": 7763,
+          "duplex": 90,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 11,
+          "commercial_industrial_agricultural": 6,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 326,
+        "building_type": {
+          "single_house": 323,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 3195,
+        "building_type": {
+          "single_house": 3162,
+          "duplex": 27,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 6,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 98,
+        "building_type": {
+          "single_house": 96,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 27,
+        "building_type": {
+          "single_house": 27,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 364,
+        "building_type": {
+          "single_house": 356,
+          "duplex": 4,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 11,
+        "building_type": {
+          "single_house": 10,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "APARRI": {
+      "Total": {
+        "total_households": 15781,
+        "building_type": {
+          "single_house": 15016,
+          "duplex": 530,
+          "apartment_accessoria_rowhouse": 47,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 159,
+          "commercial_industrial_agricultural": 24,
+          "institutional_living_quarter": 5,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 8718,
+        "building_type": {
+          "single_house": 8313,
+          "duplex": 295,
+          "apartment_accessoria_rowhouse": 23,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 75,
+          "commercial_industrial_agricultural": 7,
+          "institutional_living_quarter": 5,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 1709,
+        "building_type": {
+          "single_house": 1563,
+          "duplex": 86,
+          "apartment_accessoria_rowhouse": 7,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 50,
+          "commercial_industrial_agricultural": 3,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 4374,
+        "building_type": {
+          "single_house": 4263,
+          "duplex": 96,
+          "apartment_accessoria_rowhouse": 7,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 8,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 277,
+        "building_type": {
+          "single_house": 272,
+          "duplex": 5,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 298,
+        "building_type": {
+          "single_house": 238,
+          "duplex": 31,
+          "apartment_accessoria_rowhouse": 9,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 13,
+          "commercial_industrial_agricultural": 7,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 396,
+        "building_type": {
+          "single_house": 358,
+          "duplex": 17,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 13,
+          "commercial_industrial_agricultural": 7,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 9,
+        "building_type": {
+          "single_house": 9,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "BAGGAO": {
+      "Total": {
+        "total_households": 21486,
+        "building_type": {
+          "single_house": 21130,
+          "duplex": 289,
+          "apartment_accessoria_rowhouse": 15,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 37,
+          "commercial_industrial_agricultural": 11,
+          "institutional_living_quarter": 4,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 17116,
+        "building_type": {
+          "single_house": 16865,
+          "duplex": 203,
+          "apartment_accessoria_rowhouse": 12,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 27,
+          "commercial_industrial_agricultural": 7,
+          "institutional_living_quarter": 2,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 430,
+        "building_type": {
+          "single_house": 419,
+          "duplex": 10,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 2856,
+        "building_type": {
+          "single_house": 2798,
+          "duplex": 51,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 5,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 206,
+        "building_type": {
+          "single_house": 202,
+          "duplex": 4,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 136,
+        "building_type": {
+          "single_house": 130,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 2,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 722,
+        "building_type": {
+          "single_house": 696,
+          "duplex": 19,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 4,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 20,
+        "building_type": {
+          "single_house": 20,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "BALLESTEROS": {
+      "Total": {
+        "total_households": 8765,
+        "building_type": {
+          "single_house": 8613,
+          "duplex": 116,
+          "apartment_accessoria_rowhouse": 6,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 19,
+          "commercial_industrial_agricultural": 11,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 6192,
+        "building_type": {
+          "single_house": 6096,
+          "duplex": 82,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 10,
+          "commercial_industrial_agricultural": 4,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 417,
+        "building_type": {
+          "single_house": 410,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 3,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1619,
+        "building_type": {
+          "single_house": 1598,
+          "duplex": 20,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 57,
+        "building_type": {
+          "single_house": 56,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 101,
+        "building_type": {
+          "single_house": 83,
+          "duplex": 5,
+          "apartment_accessoria_rowhouse": 5,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 6,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 350,
+        "building_type": {
+          "single_house": 341,
+          "duplex": 5,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 3,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 28,
+        "building_type": {
+          "single_house": 28,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 1,
+        "building_type": {
+          "single_house": 1,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "BUGUEY": {
+      "Total": {
+        "total_households": 7658,
+        "building_type": {
+          "single_house": 7494,
+          "duplex": 118,
+          "apartment_accessoria_rowhouse": 31,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 14,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 5056,
+        "building_type": {
+          "single_house": 4953,
+          "duplex": 78,
+          "apartment_accessoria_rowhouse": 15,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 10,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 776,
+        "building_type": {
+          "single_house": 758,
+          "duplex": 13,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 3,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1511,
+        "building_type": {
+          "single_house": 1479,
+          "duplex": 17,
+          "apartment_accessoria_rowhouse": 15,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 26,
+        "building_type": {
+          "single_house": 24,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 27,
+        "building_type": {
+          "single_house": 24,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 245,
+        "building_type": {
+          "single_house": 239,
+          "duplex": 6,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 17,
+        "building_type": {
+          "single_house": 17,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "CALAYAN": {
+      "Total": {
+        "total_households": 4250,
+        "building_type": {
+          "single_house": 4178,
+          "duplex": 62,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 10,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 2943,
+        "building_type": {
+          "single_house": 2896,
+          "duplex": 38,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 9,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 29,
+        "building_type": {
+          "single_house": 27,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 995,
+        "building_type": {
+          "single_house": 987,
+          "duplex": 8,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 45,
+        "building_type": {
+          "single_house": 45,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 16,
+        "building_type": {
+          "single_house": 14,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 222,
+        "building_type": {
+          "single_house": 209,
+          "duplex": 12,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "CAMALANIUGAN": {
+      "Total": {
+        "total_households": 6111,
+        "building_type": {
+          "single_house": 5901,
+          "duplex": 187,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 18,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 4956,
+        "building_type": {
+          "single_house": 4805,
+          "duplex": 135,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 14,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 128,
+        "building_type": {
+          "single_house": 123,
+          "duplex": 5,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 648,
+        "building_type": {
+          "single_house": 616,
+          "duplex": 31,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 75,
+        "building_type": {
+          "single_house": 73,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 69,
+        "building_type": {
+          "single_house": 61,
+          "duplex": 5,
+          "apartment_accessoria_rowhouse": 2,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 203,
+        "building_type": {
+          "single_house": 192,
+          "duplex": 8,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 32,
+        "building_type": {
+          "single_house": 31,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "CLAVERIA": {
+      "Total": {
+        "total_households": 8223,
+        "building_type": {
+          "single_house": 7968,
+          "duplex": 179,
+          "apartment_accessoria_rowhouse": 23,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 39,
+          "commercial_industrial_agricultural": 12,
+          "institutional_living_quarter": 2,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 6119,
+        "building_type": {
+          "single_house": 5955,
+          "duplex": 126,
+          "apartment_accessoria_rowhouse": 4,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 26,
+          "commercial_industrial_agricultural": 7,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 317,
+        "building_type": {
+          "single_house": 311,
+          "duplex": 5,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1178,
+        "building_type": {
+          "single_house": 1142,
+          "duplex": 28,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 7,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 34,
+        "building_type": {
+          "single_house": 32,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 186,
+        "building_type": {
+          "single_house": 154,
+          "duplex": 11,
+          "apartment_accessoria_rowhouse": 18,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 384,
+        "building_type": {
+          "single_house": 369,
+          "duplex": 8,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 5,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 5,
+        "building_type": {
+          "single_house": 5,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "ENRILE": {
+      "Total": {
+        "total_households": 8235,
+        "building_type": {
+          "single_house": 7974,
+          "duplex": 233,
+          "apartment_accessoria_rowhouse": 9,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 18,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 6426,
+        "building_type": {
+          "single_house": 6229,
+          "duplex": 185,
+          "apartment_accessoria_rowhouse": 6,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 5,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 79,
+        "building_type": {
+          "single_house": 79,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1216,
+        "building_type": {
+          "single_house": 1180,
+          "duplex": 27,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 9,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 53,
+        "building_type": {
+          "single_house": 51,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 85,
+        "building_type": {
+          "single_house": 81,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 369,
+        "building_type": {
+          "single_house": 347,
+          "duplex": 18,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 4,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 7,
+        "building_type": {
+          "single_house": 7,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "GATTARAN": {
+      "Total": {
+        "total_households": 14210,
+        "building_type": {
+          "single_house": 13744,
+          "duplex": 386,
+          "apartment_accessoria_rowhouse": 8,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 64,
+          "commercial_industrial_agricultural": 7,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 9096,
+        "building_type": {
+          "single_house": 8827,
+          "duplex": 230,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 37,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 858,
+        "building_type": {
+          "single_house": 827,
+          "duplex": 27,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 4,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 3267,
+        "building_type": {
+          "single_house": 3155,
+          "duplex": 97,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 14,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 180,
+        "building_type": {
+          "single_house": 174,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 123,
+        "building_type": {
+          "single_house": 113,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 5,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 670,
+        "building_type": {
+          "single_house": 632,
+          "duplex": 28,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 6,
+          "commercial_industrial_agricultural": 4,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 16,
+        "building_type": {
+          "single_house": 16,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "GONZAGA": {
+      "Total": {
+        "total_households": 9684,
+        "building_type": {
+          "single_house": 9427,
+          "duplex": 210,
+          "apartment_accessoria_rowhouse": 9,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 24,
+          "commercial_industrial_agricultural": 9,
+          "institutional_living_quarter": 5,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 7024,
+        "building_type": {
+          "single_house": 6871,
+          "duplex": 130,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 16,
+          "commercial_industrial_agricultural": 6,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 242,
+        "building_type": {
+          "single_house": 235,
+          "duplex": 7,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1765,
+        "building_type": {
+          "single_house": 1717,
+          "duplex": 42,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 97,
+        "building_type": {
+          "single_house": 95,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 88,
+        "building_type": {
+          "single_house": 75,
+          "duplex": 4,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 5,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 3,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 447,
+        "building_type": {
+          "single_house": 413,
+          "duplex": 25,
+          "apartment_accessoria_rowhouse": 4,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 2,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 21,
+        "building_type": {
+          "single_house": 21,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "IGUIG": {
+      "Total": {
+        "total_households": 7015,
+        "building_type": {
+          "single_house": 6660,
+          "duplex": 300,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 53,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 5758,
+        "building_type": {
+          "single_house": 5524,
+          "duplex": 201,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 31,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 113,
+        "building_type": {
+          "single_house": 109,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 609,
+        "building_type": {
+          "single_house": 540,
+          "duplex": 54,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 15,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 41,
+        "building_type": {
+          "single_house": 33,
+          "duplex": 6,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 182,
+        "building_type": {
+          "single_house": 165,
+          "duplex": 15,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 307,
+        "building_type": {
+          "single_house": 284,
+          "duplex": 21,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 5,
+        "building_type": {
+          "single_house": 5,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "LAL-LO": {
+      "Total": {
+        "total_households": 11612,
+        "building_type": {
+          "single_house": 11370,
+          "duplex": 205,
+          "apartment_accessoria_rowhouse": 5,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 24,
+          "commercial_industrial_agricultural": 4,
+          "institutional_living_quarter": 4,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 8560,
+        "building_type": {
+          "single_house": 8383,
+          "duplex": 145,
+          "apartment_accessoria_rowhouse": 5,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 21,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 4,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 343,
+        "building_type": {
+          "single_house": 337,
+          "duplex": 6,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 2167,
+        "building_type": {
+          "single_house": 2138,
+          "duplex": 26,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 3,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 83,
+        "building_type": {
+          "single_house": 83,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 81,
+        "building_type": {
+          "single_house": 76,
+          "duplex": 4,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 373,
+        "building_type": {
+          "single_house": 348,
+          "duplex": 24,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 5,
+        "building_type": {
+          "single_house": 5,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "LASAM": {
+      "Total": {
+        "total_households": 9889,
+        "building_type": {
+          "single_house": 9712,
+          "duplex": 161,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 14,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 7294,
+        "building_type": {
+          "single_house": 7188,
+          "duplex": 98,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 7,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 232,
+        "building_type": {
+          "single_house": 223,
+          "duplex": 8,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1792,
+        "building_type": {
+          "single_house": 1752,
+          "duplex": 37,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 3,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 103,
+        "building_type": {
+          "single_house": 103,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 58,
+        "building_type": {
+          "single_house": 57,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 402,
+        "building_type": {
+          "single_house": 381,
+          "duplex": 17,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 4,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 8,
+        "building_type": {
+          "single_house": 8,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "PAMPLONA": {
+      "Total": {
+        "total_households": 5850,
+        "building_type": {
+          "single_house": 5748,
+          "duplex": 82,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 9,
+          "commercial_industrial_agricultural": 8,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 3756,
+        "building_type": {
+          "single_house": 3691,
+          "duplex": 54,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 6,
+          "commercial_industrial_agricultural": 5,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 209,
+        "building_type": {
+          "single_house": 206,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1657,
+        "building_type": {
+          "single_house": 1631,
+          "duplex": 20,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 21,
+        "building_type": {
+          "single_house": 21,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 18,
+        "building_type": {
+          "single_house": 18,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 188,
+        "building_type": {
+          "single_house": 180,
+          "duplex": 7,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 1,
+        "building_type": {
+          "single_house": 1,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "PEÑABLANCA": {
+      "Total": {
+        "total_households": 11594,
+        "building_type": {
+          "single_house": 11432,
+          "duplex": 118,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 42,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 10409,
+        "building_type": {
+          "single_house": 10279,
+          "duplex": 95,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 34,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 375,
+        "building_type": {
+          "single_house": 357,
+          "duplex": 10,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 8,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 402,
+        "building_type": {
+          "single_house": 398,
+          "duplex": 4,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 75,
+        "building_type": {
+          "single_house": 74,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 78,
+        "building_type": {
+          "single_house": 77,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 235,
+        "building_type": {
+          "single_house": 227,
+          "duplex": 8,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 20,
+        "building_type": {
+          "single_house": 20,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "PIAT": {
+      "Total": {
+        "total_households": 6122,
+        "building_type": {
+          "single_house": 6013,
+          "duplex": 85,
+          "apartment_accessoria_rowhouse": 5,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 8,
+          "commercial_industrial_agricultural": 11,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 4497,
+        "building_type": {
+          "single_house": 4420,
+          "duplex": 60,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 8,
+          "commercial_industrial_agricultural": 8,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 73,
+        "building_type": {
+          "single_house": 72,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1232,
+        "building_type": {
+          "single_house": 1212,
+          "duplex": 16,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 194,
+        "building_type": {
+          "single_house": 187,
+          "duplex": 7,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 37,
+        "building_type": {
+          "single_house": 35,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 83,
+        "building_type": {
+          "single_house": 81,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 6,
+        "building_type": {
+          "single_house": 6,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "RIZAL": {
+      "Total": {
+        "total_households": 4485,
+        "building_type": {
+          "single_house": 4332,
+          "duplex": 137,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 11,
+          "commercial_industrial_agricultural": 5,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 3271,
+        "building_type": {
+          "single_house": 3150,
+          "duplex": 107,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 11,
+          "commercial_industrial_agricultural": 3,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 48,
+        "building_type": {
+          "single_house": 48,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 938,
+        "building_type": {
+          "single_house": 912,
+          "duplex": 25,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 59,
+        "building_type": {
+          "single_house": 58,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 9,
+        "building_type": {
+          "single_house": 9,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 156,
+        "building_type": {
+          "single_house": 151,
+          "duplex": 4,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 4,
+        "building_type": {
+          "single_house": 4,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "SANCHEZ-MIRA": {
+      "Total": {
+        "total_households": 6645,
+        "building_type": {
+          "single_house": 6482,
+          "duplex": 129,
+          "apartment_accessoria_rowhouse": 16,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 9,
+          "commercial_industrial_agricultural": 9,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 5171,
+        "building_type": {
+          "single_house": 5077,
+          "duplex": 81,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 7,
+          "commercial_industrial_agricultural": 5,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 91,
+        "building_type": {
+          "single_house": 88,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 803,
+        "building_type": {
+          "single_house": 782,
+          "duplex": 17,
+          "apartment_accessoria_rowhouse": 4,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 23,
+        "building_type": {
+          "single_house": 23,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 121,
+        "building_type": {
+          "single_house": 112,
+          "duplex": 6,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 429,
+        "building_type": {
+          "single_house": 393,
+          "duplex": 22,
+          "apartment_accessoria_rowhouse": 11,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 7,
+        "building_type": {
+          "single_house": 7,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "SANTA ANA": {
+      "Total": {
+        "total_households": 8202,
+        "building_type": {
+          "single_house": 7977,
+          "duplex": 179,
+          "apartment_accessoria_rowhouse": 20,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 13,
+          "commercial_industrial_agricultural": 11,
+          "institutional_living_quarter": 2,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 4651,
+        "building_type": {
+          "single_house": 4553,
+          "duplex": 84,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 9,
+          "commercial_industrial_agricultural": 3,
+          "institutional_living_quarter": 2,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 129,
+        "building_type": {
+          "single_house": 127,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 2641,
+        "building_type": {
+          "single_house": 2577,
+          "duplex": 54,
+          "apartment_accessoria_rowhouse": 5,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 3,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 210,
+        "building_type": {
+          "single_house": 196,
+          "duplex": 12,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 228,
+        "building_type": {
+          "single_house": 200,
+          "duplex": 12,
+          "apartment_accessoria_rowhouse": 13,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 3,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 330,
+        "building_type": {
+          "single_house": 311,
+          "duplex": 15,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 13,
+        "building_type": {
+          "single_house": 13,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "SANTA PRAXEDES": {
+      "Total": {
+        "total_households": 1070,
+        "building_type": {
+          "single_house": 1045,
+          "duplex": 25,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 850,
+        "building_type": {
+          "single_house": 829,
+          "duplex": 21,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 10,
+        "building_type": {
+          "single_house": 10,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 142,
+        "building_type": {
+          "single_house": 139,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 1,
+        "building_type": {
+          "single_house": 1,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 6,
+        "building_type": {
+          "single_house": 6,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 59,
+        "building_type": {
+          "single_house": 58,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 2,
+        "building_type": {
+          "single_house": 2,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "SANTA TERESITA": {
+      "Total": {
+        "total_households": 4926,
+        "building_type": {
+          "single_house": 4757,
+          "duplex": 140,
+          "apartment_accessoria_rowhouse": 10,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 16,
+          "commercial_industrial_agricultural": 3,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 3265,
+        "building_type": {
+          "single_house": 3173,
+          "duplex": 79,
+          "apartment_accessoria_rowhouse": 2,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 9,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 115,
+        "building_type": {
+          "single_house": 111,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1223,
+        "building_type": {
+          "single_house": 1178,
+          "duplex": 37,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 7,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 52,
+        "building_type": {
+          "single_house": 49,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 41,
+        "building_type": {
+          "single_house": 32,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 6,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 227,
+        "building_type": {
+          "single_house": 211,
+          "duplex": 15,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 3,
+        "building_type": {
+          "single_house": 3,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "SANTO NIÑO (FAIRE)": {
+      "Total": {
+        "total_households": 7174,
+        "building_type": {
+          "single_house": 7022,
+          "duplex": 124,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 20,
+          "commercial_industrial_agricultural": 5,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 5404,
+        "building_type": {
+          "single_house": 5297,
+          "duplex": 90,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 13,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 138,
+        "building_type": {
+          "single_house": 135,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1306,
+        "building_type": {
+          "single_house": 1276,
+          "duplex": 24,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 5,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 68,
+        "building_type": {
+          "single_house": 67,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 15,
+        "building_type": {
+          "single_house": 15,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 232,
+        "building_type": {
+          "single_house": 221,
+          "duplex": 7,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 1,
+          "commercial_industrial_agricultural": 3,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 11,
+        "building_type": {
+          "single_house": 11,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "SOLANA": {
+      "Total": {
+        "total_households": 21406,
+        "building_type": {
+          "single_house": 20870,
+          "duplex": 450,
+          "apartment_accessoria_rowhouse": 8,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 66,
+          "commercial_industrial_agricultural": 12,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 17480,
+        "building_type": {
+          "single_house": 17081,
+          "duplex": 339,
+          "apartment_accessoria_rowhouse": 7,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 43,
+          "commercial_industrial_agricultural": 10,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 675,
+        "building_type": {
+          "single_house": 651,
+          "duplex": 20,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 4,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 2560,
+        "building_type": {
+          "single_house": 2491,
+          "duplex": 57,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 12,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 90,
+        "building_type": {
+          "single_house": 88,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 83,
+        "building_type": {
+          "single_house": 78,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 511,
+        "building_type": {
+          "single_house": 474,
+          "duplex": 29,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 7,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 7,
+        "building_type": {
+          "single_house": 7,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "TUAO": {
+      "Total": {
+        "total_households": 14785,
+        "building_type": {
+          "single_house": 14593,
+          "duplex": 160,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 22,
+          "commercial_industrial_agricultural": 9,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 12454,
+        "building_type": {
+          "single_house": 12302,
+          "duplex": 129,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 16,
+          "commercial_industrial_agricultural": 7,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 239,
+        "building_type": {
+          "single_house": 236,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 1627,
+        "building_type": {
+          "single_house": 1612,
+          "duplex": 15,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 34,
+        "building_type": {
+          "single_house": 33,
+          "duplex": 1,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 96,
+        "building_type": {
+          "single_house": 91,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 1,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 2,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 332,
+        "building_type": {
+          "single_house": 316,
+          "duplex": 10,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 4,
+          "commercial_industrial_agricultural": 2,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 3,
+        "building_type": {
+          "single_house": 3,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    },
+    "TUGUEGARAO CITY (Capital)": {
+      "Total": {
+        "total_households": 37896,
+        "building_type": {
+          "single_house": 33514,
+          "duplex": 1757,
+          "apartment_accessoria_rowhouse": 1742,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 707,
+          "commercial_industrial_agricultural": 173,
+          "institutional_living_quarter": 3,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own or owner-like possession of the house and lot": {
+        "total_households": 31083,
+        "building_type": {
+          "single_house": 28853,
+          "duplex": 1239,
+          "apartment_accessoria_rowhouse": 441,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 470,
+          "commercial_industrial_agricultural": 79,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent lot": {
+        "total_households": 1032,
+        "building_type": {
+          "single_house": 887,
+          "duplex": 55,
+          "apartment_accessoria_rowhouse": 69,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 20,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot with consent of owner": {
+        "total_households": 783,
+        "building_type": {
+          "single_house": 695,
+          "duplex": 43,
+          "apartment_accessoria_rowhouse": 35,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 9,
+          "commercial_industrial_agricultural": 1,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Own house rent-free lot without consent of owner": {
+        "total_households": 127,
+        "building_type": {
+          "single_house": 120,
+          "duplex": 2,
+          "apartment_accessoria_rowhouse": 5,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent house/room including lot": {
+        "total_households": 3453,
+        "building_type": {
+          "single_house": 1901,
+          "duplex": 276,
+          "apartment_accessoria_rowhouse": 1077,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 136,
+          "commercial_industrial_agricultural": 63,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot with consent of owner": {
+        "total_households": 1382,
+        "building_type": {
+          "single_house": 1029,
+          "duplex": 139,
+          "apartment_accessoria_rowhouse": 112,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 72,
+          "commercial_industrial_agricultural": 29,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Rent-free house and lot without consent of owner": {
+        "total_households": 36,
+        "building_type": {
+          "single_house": 29,
+          "duplex": 3,
+          "apartment_accessoria_rowhouse": 3,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 1,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not reported": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      },
+      "Not applicable": {
+        "total_households": 0,
+        "building_type": {
+          "single_house": 0,
+          "duplex": 0,
+          "apartment_accessoria_rowhouse": 0,
+          "condominium_condotel": 0,
+          "other_multi_unit_residential": 0,
+          "commercial_industrial_agricultural": 0,
+          "institutional_living_quarter": 0,
+          "other_types_of_building": 0,
+          "not_reported": 0
+        }
+      }
+    }
+  }
+}

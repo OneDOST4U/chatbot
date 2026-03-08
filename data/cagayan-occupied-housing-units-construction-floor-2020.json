@@ -1,0 +1,20 @@
+{
+  "table_number": 24,
+  "title": "Occupied Housing Units by Construction Materials and Finishing Materials of the Floor, and City/Municipality: 2020",
+  "source": "Philippine Statistics Authority, 2020 Census of Population and Housing",
+  "province": "Cagayan",
+  "year": 2020,
+  "columns": ["city_municipality", "construction_material", "total_occupied_housing_units", "ceramic_tile_marble_granite", "cement_brick_stone", "wood_plank", "wood_tile_parquet", "vinyl_carpet_tile", "linoleum", "others", "none", "not_reported", "not_applicable"],
+  "data": [
+    {"city_municipality": "CAGAYAN", "rows": [
+      {"construction_material": "Total", "total_occupied_housing_units": 291652, "ceramic_tile_marble_granite": 89271, "cement_brick_stone": 146974, "wood_plank": 15231, "wood_tile_parquet": 581, "vinyl_carpet_tile": 2342, "linoleum": 12169, "others": 7269, "none": 17370, "not_reported": 445, "not_applicable": null},
+      {"construction_material": "Concrete", "total_occupied_housing_units": 246619, "ceramic_tile_marble_granite": 89211, "cement_brick_stone": 142092, "wood_plank": 1359, "wood_tile_parquet": 233, "vinyl_carpet_tile": 2095, "linoleum": 10548, "others": 165, "none": 916, "not_reported": null, "not_applicable": null},
+      {"construction_material": "Wood", "total_occupied_housing_units": 13541, "ceramic_tile_marble_granite": null, "cement_brick_stone": null, "wood_plank": 11964, "wood_tile_parquet": 332, "vinyl_carpet_tile": 199, "linoleum": 248, "others": 144, "none": 654, "not_reported": null, "not_applicable": null},
+      {"construction_material": "Earth/sand/mud", "total_occupied_housing_units": 29291, "ceramic_tile_marble_granite": null, "cement_brick_stone": 4786, "wood_plank": 1889, "wood_tile_parquet": null, "vinyl_carpet_tile": null, "linoleum": 1337, "others": 6163, "none": 15116, "not_reported": null, "not_applicable": null}
+    ]},
+    {"city_municipality": "TUGUEGARAO CITY (Capital)", "rows": [
+      {"construction_material": "Total", "total_occupied_housing_units": 36341, "ceramic_tile_marble_granite": 20465, "cement_brick_stone": 13661, "wood_plank": 930, "wood_tile_parquet": 99, "vinyl_carpet_tile": 246, "linoleum": 617, "others": 104, "none": 169, "not_reported": 50, "not_applicable": null},
+      {"construction_material": "Concrete", "total_occupied_housing_units": 34795, "ceramic_tile_marble_granite": 20465, "cement_brick_stone": 13296, "wood_plank": 164, "wood_tile_parquet": 53, "vinyl_carpet_tile": 230, "linoleum": 579, "others": 4, "none": 4, "not_reported": null, "not_applicable": null}
+    ]}
+  ]
+}

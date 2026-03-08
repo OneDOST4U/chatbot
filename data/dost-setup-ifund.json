@@ -1,0 +1,137 @@
+{
+  "setup_project_flow": {
+    "title": "Provision of SETUP Innovation-Enabling Fund (iFUND) Assistance",
+    "flow_steps": [
+      {
+        "step": 1,
+        "activity": "Receive request for S&T Intervention",
+        "person_responsible": ["PSTO"],
+        "details": [
+          "Use WI-FOS-TTC 08-09 'Provision of iFund Assistance'.",
+          "Pre-assess request.",
+          "Use FOS-TTC 08-01, Customer Profile Form (Inventions included).",
+          "PM-FOS-TTC 08-03, Technology and Capability Building Training Assistance.",
+          "PM FOS-CON 08-01, Technical Consultancy Products and Services.",
+          "PM FOS-TTC 08-04, Packaging and Labeling.",
+          "Identify Priority Sector. If it is DOST Priority, inform customer for TNA."
+        ],
+        "time_frame": "2 working days"
+      },
+      {
+        "step": 2,
+        "activity": "Conduct TNA",
+        "person_responsible": ["PSTO"],
+        "details": [
+          "Prepare TNA Plan, use FOS-TTC-08-05.",
+          "Use FOS-TTC 08-06, TNA Report and refer to WI FOS-TTC 08-02, Technology Needs Assessment for TNA related forms."
+        ],
+        "time_frame": "5 working days"
+      },
+      {
+        "step": 3,
+        "activity": "Proposal preparation and submission",
+        "person_responsible": ["PSTO"],
+        "details": [
+          "Assist customer to prepare Project Proposal.",
+          "Use FOS-TTC 08-10, SET-UP Project Proposal Format.",
+          "Review and endorse Proposal to Regional Director thru RPMO.",
+          "See WI-FOS-TTC 08-09 'Provision of iFund Assistance' for requirements to be submitted."
+        ],
+        "time_frame": "Pacing of the proponent + 5 working days"
+      },
+      {
+        "step": 4,
+        "activity": "RTEC Evaluation and Endorsement",
+        "person_responsible": ["RPMO"],
+        "details": [
+          "Organize RTEC Team.",
+          "Send copies of Project Proposal.",
+          "RTEC members prepare their report.",
+          "Consolidate RTEC recommendations."
+        ],
+        "time_frame": "14 working days"
+      },
+      {
+        "step": 5,
+        "activity": "Approval of Regional Director",
+        "person_responsible": ["RD"],
+        "details": ["Approves or disapproves.", "Inform the customer."],
+        "time_frame": "3 working days"
+      },
+      {
+        "step": 6,
+        "activity": "MOA Signing",
+        "person_responsible": ["RPMO", "PSTO"],
+        "details": [
+          "Prepare MOA with approved LIB, facilitate signing of both parties and let it notarized.",
+          "Refer to WI FOS-TTC 08-05, MOA Preparation-SETUP.",
+          "Submit to FASS the ff. Canvass, letter of approval, DTI Registration and MOA."
+        ],
+        "time_frame": "5 working days"
+      },
+      {
+        "step": 7,
+        "activity": "Process and Awarding of iFund",
+        "person_responsible": ["PSTO"],
+        "details": [
+          "Use WI-FOS-TTC 08-09 'Provision of iFund Assistance'.",
+          "Collect Official Receipt with indicated released amount.",
+          "Collect 3 Post Dated Checks."
+        ],
+        "time_frame": "6 working days"
+      },
+      {
+        "step": 8,
+        "activity": "Implement Project PHASE I",
+        "person_responsible": ["PSTO", "RPMO"],
+        "details": [
+          "Facilitate purchases until acceptance of equipment and other assistance based on the LIB of the proposal.",
+          "Use WI-FOS-TTC 08-09 'Provision of iFund Assistance'."
+        ],
+        "time_frame": "Setup Guidelines (1 year)"
+      },
+      {
+        "step": 9,
+        "activity": "Monitor Project PHASE II",
+        "person_responsible": ["PSTO", "RPMO", "Planning Officer"],
+        "details": [
+          "Use FOS-TTC 08-03, SETUP PIS for on-going projects.",
+          "Use FOS-TTC 08-15, SETUP Status Report.",
+          "Use FOS-TTC 08-16, Monthly Monitoring Report.",
+          "Refer WI FOS-TTC 08-06, Conduct of Monitoring and Evaluation and PM FOS-TTC 08-05, Project Monitoring and Evaluation."
+        ],
+        "time_frame": "Semi-annual / Monthly"
+      }
+    ],
+    "signatory": {
+      "name": "Virginia G. Bilgera",
+      "position": "Regional Director"
+    }
+  },
+  "faqs": [
+    {
+      "question": "How does a SETUP iFUND project start?",
+      "answer": "It starts when a client requests an S&T intervention through the PSTO, followed by pre-assessment and checking if the request falls under DOST priority sectors."
+    },
+    {
+      "question": "What happens after the request is received?",
+      "answer": "The PSTO conducts a Technology Needs Assessment or TNA, prepares the TNA report, and helps the client prepare the project proposal."
+    },
+    {
+      "question": "Who evaluates the SETUP proposal?",
+      "answer": "The RTEC or Regional Technical Evaluation Committee evaluates the proposal and consolidates recommendations before endorsement."
+    },
+    {
+      "question": "Who approves the SETUP iFUND assistance?",
+      "answer": "The Regional Director approves or disapproves the proposal."
+    },
+    {
+      "question": "What happens after approval?",
+      "answer": "A Memorandum of Agreement is prepared and signed, then the iFUND is processed and awarded."
+    },
+    {
+      "question": "What happens after the fund is released?",
+      "answer": "The project enters implementation, including procurement and delivery of approved assistance, followed by monitoring and evaluation."
+    }
+  ]
+}

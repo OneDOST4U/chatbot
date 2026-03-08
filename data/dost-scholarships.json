@@ -1,0 +1,56 @@
+{
+  "scholarships": [
+    {
+      "program_code": "JLSS",
+      "program_name": "Junior Level Science Scholarship",
+      "title": "DOST-SEI JLSS",
+      "description": "The Junior Level Science Scholarship (JLSS) Program aims to provide scholarships that will finance the education of talented and deserving students in their third year of college and who are pursuing degree programs in the areas of science and technology; and ensure a steady, adequate supply of qualified S&T human resources who can steer the country towards national progress.",
+      "who_can_apply": [
+        { "item": 1, "requirement": "Natural-born Filipino citizen" },
+        { "item": 2, "requirement": "Poor, talented and deserving student who belongs to a family whose socio-economic status does not exceed the set values of certain indicators" },
+        { "item": 3, "requirement": "REGULAR Second Year college student in an identified priority S&T course at an identified university for Second Semester of the current academic year" },
+        { "item": 4, "requirement": "Must have a general weighted average of at least 83% or its equivalent and with no conditional or failing mark from the First Semester of First Year until the First Semester of Second Year in college, including in the midyear terms, if enrolled" },
+        { "item": 5, "requirement": "Resident of the municipality as attested by the barangay for four (4) years or longer" },
+        { "item": 6, "requirement": "Of good moral character and in good health" },
+        { "item": 7, "requirement": "May have taken the DOST-SEI Scholarship Examination before but did not pass; OR have qualified for the DOST-SEI Undergraduate Scholarship but did not avail the scholarship award" }
+      ],
+      "benefits": {
+        "during_regular_academic_year": [
+          { "name": "Tuition and other school fees", "amount": "P40,000/AY" },
+          { "name": "Learning Materials and/or Connectivity Allowance", "amount": "P10,000/AY" },
+          { "name": "Monthly Living Allowance", "amount": "P7,000/month" },
+          { "name": "Clothing Allowance", "amount": "P1,000.00", "note": "1st Sem of 1st Year" },
+          { "name": "Transportation allowance", "amount": "1 economy-class roundtrip fare" },
+          { "name": "Group Accident and Health Insurance", "amount": "Premium" },
+          { "name": "Thesis Allowance", "amount": "P10,000" },
+          { "name": "Graduation Allowance", "amount": "P1,000" }
+        ],
+        "during_mid_year_term_if_required_in_curriculum": [
+          { "name": "Tuition and other school fees", "amount": "actual fees of P10,000" },
+          { "name": "Learning Materials and/or Connectivity allowance", "amount": "P2000.00" },
+          { "name": "Monthly Living Allowance", "amount": "P7,000/month for two months" }
+        ]
+      },
+      "contact_details": {
+        "office": "DOST Region 02 Scholarship Unit",
+        "mobile_no": "0997-556-2214",
+        "facebook_account": "www.facebook.com/dostrehiyondos.iskolars.com",
+        "website": "www.sei.dost.gov.ph"
+      }
+    }
+  ],
+  "scholarship_application_flow": {
+    "title": "Handling of Applications and Awarding of DOST Undergraduate Scholarship",
+    "steps": [
+      { "step": 1, "activity": "Announce/Disseminate information on Scholarship Program", "person_responsible": ["Center Manager for Scholarships / Project Scholarship Staff / PSTOs"], "details": ["The DOST Regional Office facilitates and manages all scholarship activities in the region.", "Receives official announcement from SEI.", "Provides Information & Application Forms to the following for dissemination: PSTOs, All secondary schools, SUCs, Accredited HEIs", "Press releases thru DOST 02 website, social media, and radio broadcasts."], "time_frame": "1-2 days" },
+      { "step": 2, "activity": "Coordinate for the testing centers/facilities", "person_responsible": ["S&T Info In-Charge", "Project Scholarship Staff"], "details": ["A letter of request is sent to identified institutions to host the Testing Center for the examination.", "The request includes the janitor, technician, health personnel and other staff of the institution to act as marshal during the actual conduct of the examination.", "Room Examiners will come from the DOST-Regional or Provincial Offices."], "time_frame": "1-2 days" },
+      { "step": 3, "activity": "Online submission of applicants thru E-Application", "person_responsible": ["Students", "CM", "Project Scholarship Staff", "PSTOs"], "details": ["Application is done online thru the following link: www.ugrad.eceenrolscholarships.ph", "Online validation of uploaded documents/requirements"], "time_frame": "Depends on the applicant" },
+      { "step": 4, "activity": "Coordinate the Pre-Examination Activities", "person_responsible": ["Project Scholarship Staff"], "details": ["Conducts ocular inspection of the test venue together with the chief examiner.", "The chief examiner conducts the orientation for the Room Examiners, Marshal and Health personnel."], "time_frame": "1/2 day" },
+      { "step": 5, "activity": "Conduct the Competitive Examination", "person_responsible": ["CM", "Project Scholarship Staff", "Examiner and Proctors"], "details": ["The chief examiner/examiner is responsible for the overall conduct of the examination based on SEI guidelines.", "If pandemic occurs, no examination will be conducted. Evaluation of qualifiers will be based from the selection guidelines of SEI."], "time_frame": "1 day" },
+      { "step": 6, "activity": "Announce the Qualifiers", "person_responsible": ["CM", "Project Scholarship Staff"], "details": ["The dissemination of information for DOST-SEI Undergraduate qualifiers is within 7 working days from receipt of Official List of Results from DOST-SEI.", "Disseminate information: thru DOST 02 website, social media and radio broadcasts", "Sending of notification of award to qualifiers"], "time_frame": "1-2 days" },
+      { "step": 7, "activity": "Conduct Scholarship Orientation", "person_responsible": ["CM", "Project Scholarship Staff"], "details": ["The orientation of DOST Undergraduate Scholarship is conducted in DOST Regional Office/PSTOs.", "Readout of FAQs-STS-08-02, Conduct of Scholarship Orientation to S&T Scholarship Qualifiers."], "time_frame": "1/2 day" },
+      { "step": 8, "activity": "Endorse Scholars", "person_responsible": ["RD"], "details": ["For scholars who will enroll within the region, the RD signs a letter of endorsement to the college/university where the scholars intend to enrol.", "For scholars who will enrol in schools located outside the region, the RD signs a letter of endorsement to the NCR Regional DOST RO or to SEI for NCR schools."], "time_frame": "1-2 days depending on the submitted Agreement" },
+      { "step": 9, "activity": "Process Financial Benefits", "person_responsible": ["CM", "Project Scholarship Staff"], "details": ["Benefits of scholars shall only be processed when all the required documents are submitted. Details are specified in PM FASS-STS-08-02, 'Monitoring and Release of Financial Benefits of On-going DOST Undergraduate Scholars'", "Financial benefits are released thru DOST scholar's Land Bank Debit Visa Card under the Land Bank of the Philippines."], "time_frame": "3-5 days" }
+    ]
+  }
+}

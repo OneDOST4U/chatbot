@@ -1,0 +1,151 @@
+{
+  "rstl_testing_flow": {
+    "title": "Regional Standards and Testing Laboratory - How to Avail of the Service",
+    "flow_steps": [
+      {
+        "step": 1,
+        "activity": "Submit Sample to the Laboratory",
+        "person_responsible": ["Customer"],
+        "timeline": null
+      },
+      {
+        "step": 2,
+        "activity": "Evaluate Sample Submitted",
+        "person_responsible": ["CRO / RML Staff"],
+        "timeline": "2 Minutes"
+      },
+      {
+        "step": 3,
+        "activity": "Check if sample is capable for testing",
+        "decision": {
+          "question": "CAPABLE?",
+          "if_yes": "Proceed to technical service request and testing process",
+          "if_no": "Inform customer about referral to other laboratory"
+        },
+        "person_responsible": ["CRO / RML Staff"],
+        "timeline": "2 Minutes"
+      },
+      {
+        "step": 4,
+        "activity": "Accomplish the Technical Service Request with Customer and Sample Details",
+        "person_responsible": ["CRO / RML Staff"],
+        "timeline": "3 Minutes"
+      },
+      {
+        "step": 5,
+        "activity": "Pay Required Fee",
+        "person_responsible": ["Customer"],
+        "timeline": "3 Minutes"
+      },
+      {
+        "step": 6,
+        "activity": "Update Request Logbook Form/Job Order Logbook",
+        "person_responsible": ["CRO / RML Staff"],
+        "timeline": "1 Minute"
+      },
+      {
+        "step": 7,
+        "activity": "Conduct required Test/Calibration",
+        "person_responsible": ["RSTL Staff"],
+        "timeline": "Depending on the sample"
+      },
+      {
+        "step": 8,
+        "activity": "Claim Test Report",
+        "person_responsible": ["Customer"],
+        "requirements": [
+          "Present Job Order",
+          "Present Official Receipt in claiming Test Report"
+        ],
+        "timeline": "5 Minutes"
+      },
+      {
+        "step": 9,
+        "activity": "If sample is not capable, inform customer of option to refer sample to other laboratory",
+        "person_responsible": ["CRO / RML Staff"],
+        "timeline": "2 Minutes"
+      },
+      {
+        "step": 10,
+        "activity": "Check if customer is willing to refer sample",
+        "decision": {
+          "question": "WILLING?",
+          "if_yes": "Refer to Other Laboratory",
+          "if_no": "Reject Sample"
+        },
+        "person_responsible": ["Customer"],
+        "timeline": "3 Minutes"
+      },
+      {
+        "step": 11,
+        "activity": "Refer to Other Laboratory",
+        "person_responsible": ["CRO / RML Staff"],
+        "timeline": "5 Minutes"
+      },
+      {
+        "step": 12,
+        "activity": "Reject Sample",
+        "person_responsible": ["CRO / RML Staff"],
+        "timeline": "5 Minutes"
+      }
+    ],
+    "summary_paths": {
+      "successful_testing": [
+        "Submit Sample to the Laboratory",
+        "Evaluate Sample Submitted",
+        "Check if sample is capable for testing",
+        "Accomplish Technical Service Request",
+        "Pay Required Fee",
+        "Update Logbook / Job Order Logbook",
+        "Conduct Test/Calibration",
+        "Claim Test Report"
+      ],
+      "referral_path": [
+        "Submit Sample to the Laboratory",
+        "Evaluate Sample Submitted",
+        "Check if sample is capable for testing",
+        "Inform customer of referral option",
+        "Customer agrees to referral",
+        "Refer to Other Laboratory"
+      ],
+      "rejection_path": [
+        "Submit Sample to the Laboratory",
+        "Evaluate Sample Submitted",
+        "Check if sample is capable for testing",
+        "Inform customer of referral option",
+        "Customer declines referral",
+        "Reject Sample"
+      ]
+    },
+    "signatory": {
+      "name": "Virginia G. Bilgera",
+      "position": "Regional Director"
+    },
+    "revision": {
+      "revision_no": 7,
+      "as_of": "16 May 2022"
+    }
+  },
+  "faqs": [
+    {
+      "question": "How do I avail of RSTL testing services?",
+      "answer": "You submit your sample to the laboratory, the sample is evaluated, and if it is capable for testing, you fill out the technical service request, pay the required fee, and wait for the testing or calibration to be completed before claiming the test report."
+    },
+    {
+      "question": "What happens if my sample cannot be tested?",
+      "answer": "If the sample is not capable for testing, the laboratory staff will inform you if the sample can be referred to another laboratory. If you agree, it will be referred; if not, the sample will be rejected."
+    },
+    {
+      "question": "Who evaluates the sample?",
+      "answer": "The sample is evaluated by CRO or RML Staff."
+    },
+    {
+      "question": "Who conducts the actual test or calibration?",
+      "answer": "The required test or calibration is conducted by RSTL Staff."
+    },
+    {
+      "question": "What do I need to claim the test report?",
+      "answer": "You need to present the Job Order and Official Receipt when claiming the test report."
+    }
+  ]
+}

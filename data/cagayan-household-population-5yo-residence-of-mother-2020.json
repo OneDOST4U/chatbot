@@ -1,0 +1,258 @@
+{
+  "table_number": 15,
+  "table_title": "Household Population 5 Years Old and Over by Sex, Place of Present Residence, Residence of Mother at the Time of Birth of the Household Member, and City/Municipality",
+  "year": 2020,
+  "geographic_area": "CAGAYAN",
+  "source": "Philippine Statistics Authority, 2020 Census of Population and Housing",
+  "columns": [
+    "sex",
+    "household_population_5_years_old_and_over",
+    "same_province_and_city_municipality",
+    "same_province_but_different_city_municipality",
+    "different_province",
+    "foreign_country",
+    "not_reported"
+  ],
+  "data": [
+    {
+      "city_municipality": "CAGAYAN",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 1155804, "same_province_and_city_municipality": 899074, "same_province_but_different_city_municipality": 135269, "different_province": 119607, "foreign_country": 1056, "not_reported": 798 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 583699, "same_province_and_city_municipality": 467394, "same_province_but_different_city_municipality": 59886, "different_province": 55340, "foreign_country": 668, "not_reported": 411 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 572105, "same_province_and_city_municipality": 431680, "same_province_but_different_city_municipality": 75383, "different_province": 64267, "foreign_country": 388, "not_reported": 387 }
+      ]
+    },
+    {
+      "city_municipality": "ABULUG",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 31608, "same_province_and_city_municipality": 24130, "same_province_but_different_city_municipality": 3587, "different_province": 3867, "foreign_country": 6, "not_reported": 18 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 15761, "same_province_and_city_municipality": 12507, "same_province_but_different_city_municipality": 1549, "different_province": 1689, "foreign_country": 4, "not_reported": 12 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 15847, "same_province_and_city_municipality": 11623, "same_province_but_different_city_municipality": 2038, "different_province": 2178, "foreign_country": 2, "not_reported": 6 }
+      ]
+    },
+    {
+      "city_municipality": "ALCALA",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 38112, "same_province_and_city_municipality": 30543, "same_province_but_different_city_municipality": 4627, "different_province": 2912, "foreign_country": 11, "not_reported": 19 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 19242, "same_province_and_city_municipality": 16021, "same_province_but_different_city_municipality": 1927, "different_province": 1278, "foreign_country": 9, "not_reported": 7 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 18870, "same_province_and_city_municipality": 14522, "same_province_but_different_city_municipality": 2700, "different_province": 1634, "foreign_country": 2, "not_reported": 12 }
+      ]
+    },
+    {
+      "city_municipality": "ALLACAPAN",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 31883, "same_province_and_city_municipality": 23859, "same_province_but_different_city_municipality": 4927, "different_province": 3036, "foreign_country": 25, "not_reported": 36 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 16159, "same_province_and_city_municipality": 12533, "same_province_but_different_city_municipality": 2225, "different_province": 1372, "foreign_country": 15, "not_reported": 14 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 15724, "same_province_and_city_municipality": 11326, "same_province_but_different_city_municipality": 2702, "different_province": 1664, "foreign_country": 10, "not_reported": 22 }
+      ]
+    },
+    {
+      "city_municipality": "AMULUNG",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 45496, "same_province_and_city_municipality": 37370, "same_province_but_different_city_municipality": 4912, "different_province": 3169, "foreign_country": 8, "not_reported": 37 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 23209, "same_province_and_city_municipality": 19628, "same_province_but_different_city_municipality": 2095, "different_province": 1457, "foreign_country": 6, "not_reported": 23 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 22287, "same_province_and_city_municipality": 17742, "same_province_but_different_city_municipality": 2817, "different_province": 1712, "foreign_country": 2, "not_reported": 14 }
+      ]
+    },
+    {
+      "city_municipality": "APARRI",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 62637, "same_province_and_city_municipality": 53164, "same_province_but_different_city_municipality": 5565, "different_province": 3847, "foreign_country": 30, "not_reported": 31 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 31492, "same_province_and_city_municipality": 27458, "same_province_but_different_city_municipality": 2366, "different_province": 1643, "foreign_country": 15, "not_reported": 10 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 31145, "same_province_and_city_municipality": 25706, "same_province_but_different_city_municipality": 3199, "different_province": 2204, "foreign_country": 15, "not_reported": 21 }
+      ]
+    },
+    {
+      "city_municipality": "BAGGAO",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 80006, "same_province_and_city_municipality": 66670, "same_province_but_different_city_municipality": 6863, "different_province": 6431, "foreign_country": 24, "not_reported": 18 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 41084, "same_province_and_city_municipality": 34796, "same_province_but_different_city_municipality": 3160, "different_province": 3102, "foreign_country": 16, "not_reported": 10 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 38922, "same_province_and_city_municipality": 31874, "same_province_but_different_city_municipality": 3703, "different_province": 3329, "foreign_country": 8, "not_reported": 8 }
+      ]
+    },
+    {
+      "city_municipality": "BALLESTEROS",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 31061, "same_province_and_city_municipality": 25811, "same_province_but_different_city_municipality": 2791, "different_province": 2399, "foreign_country": 25, "not_reported": 35 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 15579, "same_province_and_city_municipality": 13315, "same_province_but_different_city_municipality": 1175, "different_province": 1050, "foreign_country": 18, "not_reported": 21 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 15482, "same_province_and_city_municipality": 12496, "same_province_but_different_city_municipality": 1616, "different_province": 1349, "foreign_country": 7, "not_reported": 14 }
+      ]
+    },
+    {
+      "city_municipality": "BUGUEY",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 29353, "same_province_and_city_municipality": 23477, "same_province_but_different_city_municipality": 3197, "different_province": 2621, "foreign_country": 21, "not_reported": 37 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 14868, "same_province_and_city_municipality": 12304, "same_province_but_different_city_municipality": 1348, "different_province": 1186, "foreign_country": 13, "not_reported": 17 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 14485, "same_province_and_city_municipality": 11173, "same_province_but_different_city_municipality": 1849, "different_province": 1435, "foreign_country": 8, "not_reported": 20 }
+      ]
+    },
+    {
+      "city_municipality": "CALAYAN",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 15794, "same_province_and_city_municipality": 15014, "same_province_but_different_city_municipality": 362, "different_province": 409, "foreign_country": 3, "not_reported": 6 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 8263, "same_province_and_city_municipality": 7898, "same_province_but_different_city_municipality": 171, "different_province": 188, "foreign_country": 2, "not_reported": 4 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 7531, "same_province_and_city_municipality": 7116, "same_province_but_different_city_municipality": 191, "different_province": 221, "foreign_country": 1, "not_reported": 2 }
+      ]
+    },
+    {
+      "city_municipality": "CAMALANIUGAN",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 22922, "same_province_and_city_municipality": 17655, "same_province_but_different_city_municipality": 3407, "different_province": 1827, "foreign_country": 10, "not_reported": 23 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 11632, "same_province_and_city_municipality": 9289, "same_province_but_different_city_municipality": 1491, "different_province": 833, "foreign_country": 6, "not_reported": 13 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 11290, "same_province_and_city_municipality": 8366, "same_province_but_different_city_municipality": 1916, "different_province": 994, "foreign_country": 4, "not_reported": 10 }
+      ]
+    },
+    {
+      "city_municipality": "CLAVERIA",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 29430, "same_province_and_city_municipality": 21935, "same_province_but_different_city_municipality": 2472, "different_province": 4946, "foreign_country": 55, "not_reported": 22 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 14691, "same_province_and_city_municipality": 11426, "same_province_but_different_city_municipality": 1100, "different_province": 2119, "foreign_country": 35, "not_reported": 11 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 14739, "same_province_and_city_municipality": 10509, "same_province_but_different_city_municipality": 1372, "different_province": 2827, "foreign_country": 20, "not_reported": 11 }
+      ]
+    },
+    {
+      "city_municipality": "ENRILE",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 33720, "same_province_and_city_municipality": 25402, "same_province_but_different_city_municipality": 3271, "different_province": 4980, "foreign_country": 47, "not_reported": 20 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 17015, "same_province_and_city_municipality": 13133, "same_province_but_different_city_municipality": 1549, "different_province": 2296, "foreign_country": 28, "not_reported": 9 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 16705, "same_province_and_city_municipality": 12269, "same_province_but_different_city_municipality": 1722, "different_province": 2684, "foreign_country": 19, "not_reported": 11 }
+      ]
+    },
+    {
+      "city_municipality": "GATTARAN",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 53323, "same_province_and_city_municipality": 42192, "same_province_but_different_city_municipality": 6247, "different_province": 4799, "foreign_country": 49, "not_reported": 36 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 27172, "same_province_and_city_municipality": 22056, "same_province_but_different_city_municipality": 2789, "different_province": 2274, "foreign_country": 30, "not_reported": 23 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 26151, "same_province_and_city_municipality": 20136, "same_province_but_different_city_municipality": 3458, "different_province": 2525, "foreign_country": 19, "not_reported": 13 }
+      ]
+    },
+    {
+      "city_municipality": "GONZAGA",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 37971, "same_province_and_city_municipality": 28140, "same_province_but_different_city_municipality": 4308, "different_province": 5465, "foreign_country": 41, "not_reported": 17 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 19217, "same_province_and_city_municipality": 14646, "same_province_but_different_city_municipality": 1924, "different_province": 2617, "foreign_country": 23, "not_reported": 7 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 18754, "same_province_and_city_municipality": 13494, "same_province_but_different_city_municipality": 2384, "different_province": 2848, "foreign_country": 18, "not_reported": 10 }
+      ]
+    },
+    {
+      "city_municipality": "IGUIG",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 27368, "same_province_and_city_municipality": 19495, "same_province_but_different_city_municipality": 4703, "different_province": 3147, "foreign_country": 10, "not_reported": 13 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 13977, "same_province_and_city_municipality": 10301, "same_province_but_different_city_municipality": 2165, "different_province": 1497, "foreign_country": 8, "not_reported": 6 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 13391, "same_province_and_city_municipality": 9194, "same_province_but_different_city_municipality": 2538, "different_province": 1650, "foreign_country": 2, "not_reported": 7 }
+      ]
+    },
+    {
+      "city_municipality": "LAL-LO",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 44212, "same_province_and_city_municipality": 31824, "same_province_but_different_city_municipality": 7644, "different_province": 4650, "foreign_country": 44, "not_reported": 50 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 22348, "same_province_and_city_municipality": 16592, "same_province_but_different_city_municipality": 3453, "different_province": 2252, "foreign_country": 26, "not_reported": 25 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 21864, "same_province_and_city_municipality": 15232, "same_province_but_different_city_municipality": 4191, "different_province": 2398, "foreign_country": 18, "not_reported": 25 }
+      ]
+    },
+    {
+      "city_municipality": "LASAM",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 37479, "same_province_and_city_municipality": 29644, "same_province_but_different_city_municipality": 4031, "different_province": 3749, "foreign_country": 34, "not_reported": 21 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 18958, "same_province_and_city_municipality": 15432, "same_province_but_different_city_municipality": 1772, "different_province": 1719, "foreign_country": 20, "not_reported": 15 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 18521, "same_province_and_city_municipality": 14212, "same_province_but_different_city_municipality": 2259, "different_province": 2030, "foreign_country": 14, "not_reported": 6 }
+      ]
+    },
+    {
+      "city_municipality": "PAMPLONA",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 22775, "same_province_and_city_municipality": 17729, "same_province_but_different_city_municipality": 2237, "different_province": 2788, "foreign_country": 11, "not_reported": 10 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 11571, "same_province_and_city_municipality": 9252, "same_province_but_different_city_municipality": 1022, "different_province": 1284, "foreign_country": 7, "not_reported": 6 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 11204, "same_province_and_city_municipality": 8477, "same_province_but_different_city_municipality": 1215, "different_province": 1504, "foreign_country": 4, "not_reported": 4 }
+      ]
+    },
+    {
+      "city_municipality": "PEÑABLANCA",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 45645, "same_province_and_city_municipality": 36521, "same_province_but_different_city_municipality": 5207, "different_province": 3856, "foreign_country": 36, "not_reported": 25 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 23259, "same_province_and_city_municipality": 18915, "same_province_but_different_city_municipality": 2451, "different_province": 1855, "foreign_country": 24, "not_reported": 14 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 22386, "same_province_and_city_municipality": 17606, "same_province_but_different_city_municipality": 2756, "different_province": 2001, "foreign_country": 12, "not_reported": 11 }
+      ]
+    },
+    {
+      "city_municipality": "PIAT",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 22561, "same_province_and_city_municipality": 17107, "same_province_but_different_city_municipality": 3240, "different_province": 2180, "foreign_country": 11, "not_reported": 23 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 11296, "same_province_and_city_municipality": 8869, "same_province_but_different_city_municipality": 1419, "different_province": 984, "foreign_country": 10, "not_reported": 14 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 11265, "same_province_and_city_municipality": 8238, "same_province_but_different_city_municipality": 1821, "different_province": 1196, "foreign_country": 1, "not_reported": 9 }
+      ]
+    },
+    {
+      "city_municipality": "RIZAL",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 17373, "same_province_and_city_municipality": 14616, "same_province_but_different_city_municipality": 1439, "different_province": 1307, "foreign_country": 2, "not_reported": 9 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 8915, "same_province_and_city_municipality": 7639, "same_province_but_different_city_municipality": 672, "different_province": 596, "foreign_country": 2, "not_reported": 6 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 8458, "same_province_and_city_municipality": 6977, "same_province_but_different_city_municipality": 767, "different_province": 711, "foreign_country": null, "not_reported": 3 }
+      ]
+    },
+    {
+      "city_municipality": "SANCHEZ-MIRA",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 24100, "same_province_and_city_municipality": 18062, "same_province_but_different_city_municipality": 2422, "different_province": 3570, "foreign_country": 34, "not_reported": 12 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 12149, "same_province_and_city_municipality": 9464, "same_province_but_different_city_municipality": 1070, "different_province": 1591, "foreign_country": 18, "not_reported": 6 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 11951, "same_province_and_city_municipality": 8598, "same_province_but_different_city_municipality": 1352, "different_province": 1979, "foreign_country": 16, "not_reported": 6 }
+      ]
+    },
+    {
+      "city_municipality": "SANTA ANA",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 31607, "same_province_and_city_municipality": 20802, "same_province_but_different_city_municipality": 5175, "different_province": 5563, "foreign_country": 33, "not_reported": 34 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 16016, "same_province_and_city_municipality": 10794, "same_province_but_different_city_municipality": 2435, "different_province": 2750, "foreign_country": 24, "not_reported": 13 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 15591, "same_province_and_city_municipality": 10008, "same_province_but_different_city_municipality": 2740, "different_province": 2813, "foreign_country": 9, "not_reported": 21 }
+      ]
+    },
+    {
+      "city_municipality": "SANTA PRAXEDES",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 4073, "same_province_and_city_municipality": 2984, "same_province_but_different_city_municipality": 382, "different_province": 700, "foreign_country": 3, "not_reported": 4 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 2038, "same_province_and_city_municipality": 1550, "same_province_but_different_city_municipality": 174, "different_province": 309, "foreign_country": 3, "not_reported": 2 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 2035, "same_province_and_city_municipality": 1434, "same_province_but_different_city_municipality": 208, "different_province": 391, "foreign_country": null, "not_reported": 2 }
+      ]
+    },
+    {
+      "city_municipality": "SANTA TERESITA",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 17710, "same_province_and_city_municipality": 12544, "same_province_but_different_city_municipality": 2844, "different_province": 2289, "foreign_country": 13, "not_reported": 20 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 8832, "same_province_and_city_municipality": 6516, "same_province_but_different_city_municipality": 1262, "different_province": 1032, "foreign_country": 10, "not_reported": 12 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 8878, "same_province_and_city_municipality": 6028, "same_province_but_different_city_municipality": 1582, "different_province": 1257, "foreign_country": 3, "not_reported": 8 }
+      ]
+    },
+    {
+      "city_municipality": "SANTO NIÑO (FAIRE)",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 26050, "same_province_and_city_municipality": 20549, "same_province_but_different_city_municipality": 3362, "different_province": 2116, "foreign_country": 7, "not_reported": 16 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 13305, "same_province_and_city_municipality": 10899, "same_province_but_different_city_municipality": 1437, "different_province": 952, "foreign_country": 6, "not_reported": 11 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 12745, "same_province_and_city_municipality": 9650, "same_province_but_different_city_municipality": 1925, "different_province": 1164, "foreign_country": 1, "not_reported": 5 }
+      ]
+    },
+    {
+      "city_municipality": "SOLANA",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 80484, "same_province_and_city_municipality": 66598, "same_province_but_different_city_municipality": 6300, "different_province": 7518, "foreign_country": 27, "not_reported": 41 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 40943, "same_province_and_city_municipality": 34562, "same_province_but_different_city_municipality": 2909, "different_province": 3431, "foreign_country": 18, "not_reported": 23 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 39541, "same_province_and_city_municipality": 32036, "same_province_but_different_city_municipality": 3391, "different_province": 4087, "foreign_country": 9, "not_reported": 18 }
+      ]
+    },
+    {
+      "city_municipality": "TUAO",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 58665, "same_province_and_city_municipality": 49926, "same_province_but_different_city_municipality": 3831, "different_province": 4840, "foreign_country": 36, "not_reported": 32 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 29782, "same_province_and_city_municipality": 25754, "same_province_but_different_city_municipality": 1775, "different_province": 2211, "foreign_country": 26, "not_reported": 16 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 28883, "same_province_and_city_municipality": 24172, "same_province_but_different_city_municipality": 2056, "different_province": 2629, "foreign_country": 10, "not_reported": 16 }
+      ]
+    },
+    {
+      "city_municipality": "TUGUEGARAO CITY (CAPITAL)",
+      "records": [
+        { "sex": "Total", "household_population_5_years_old_and_over": 152386, "same_province_and_city_municipality": 105311, "same_province_but_different_city_municipality": 25916, "different_province": 20626, "foreign_country": 400, "not_reported": 133 },
+        { "sex": "Male", "household_population_5_years_old_and_over": 74926, "same_province_and_city_municipality": 53845, "same_province_but_different_city_municipality": 11001, "different_province": 9773, "foreign_country": 246, "not_reported": 61 },
+        { "sex": "Female", "household_population_5_years_old_and_over": 77460, "same_province_and_city_municipality": 51466, "same_province_but_different_city_municipality": 14915, "different_province": 10853, "foreign_country": 154, "not_reported": 72 }
+      ]
+    }
+  ]
+}

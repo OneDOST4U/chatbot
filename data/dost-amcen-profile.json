@@ -1,0 +1,53 @@
+{
+  "amcen_profile": {
+    "program_name": "Advanced Manufacturing Center",
+    "short_name": "AMCen",
+    "description": "Welcome to the first Advanced Manufacturing Center in the Philippines.",
+    "overview": "The AMCen aims to increase the country's technical readiness, business sophistication, and innovation rating by introducing one of the emerging technologies that is foreseen to greatly contribute in the country's goal of becoming globally competitive and to prepare the industry including the academe for increased research and development activities.",
+    "what_we_do": "Contributes to Technological Readiness, Business Sophistication, and Innovation on additive manufacturing or 3D printing.",
+    "who_we_are": "A collaborative research center on Additive Manufacturing. A partnership of the Metals Industry Research and Development Center and the Industrial Technology Development Institute under the Department of Science and Technology.",
+    "mission": "Establish a National Additive Manufacturing Center as a technological hub for additive manufacturing to help sustain the global competitiveness of the country.",
+    "focus_areas": [
+      "Additive manufacturing",
+      "3D printing",
+      "Research and development",
+      "Innovation support",
+      "Industry-academe preparation",
+      "Technological readiness",
+      "Business sophistication"
+    ],
+    "keywords": [
+      "AMCen",
+      "Advanced Manufacturing Center",
+      "Additive Manufacturing",
+      "3D Printing",
+      "DOST",
+      "MIRDC",
+      "ITDI",
+      "Research Center",
+      "Emerging Technology"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is AMCen?",
+      "answer": "AMCen or the Advanced Manufacturing Center is the first Advanced Manufacturing Center in the Philippines."
+    },
+    {
+      "question": "What is the goal of AMCen?",
+      "answer": "AMCen aims to improve the country's technical readiness, business sophistication, and innovation by promoting additive manufacturing or 3D printing."
+    },
+    {
+      "question": "What does AMCen do?",
+      "answer": "AMCen supports technological readiness, business sophistication, and innovation in additive manufacturing or 3D printing."
+    },
+    {
+      "question": "Who manages or leads AMCen?",
+      "answer": "AMCen is a collaborative research center formed through a partnership of the Metals Industry Research and Development Center and the Industrial Technology Development Institute under DOST."
+    },
+    {
+      "question": "What is the mission of AMCen?",
+      "answer": "Its mission is to establish a National Additive Manufacturing Center as a technological hub for additive manufacturing to help sustain the global competitiveness of the country."
+    }
+  ]
+}

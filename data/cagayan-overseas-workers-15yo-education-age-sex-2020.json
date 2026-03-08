@@ -1,0 +1,57 @@
+{
+  "table_number": 17,
+  "table_title": "Overseas Workers 15 Years Old and Over by Highest Grade/Year Completed, Age Group, and Sex",
+  "year": 2020,
+  "geographic_area": "CAGAYAN",
+  "source": "Philippine Statistics Authority, 2020 Census of Population and Housing",
+  "age_groups": [
+    "below_20",
+    "20_24",
+    "25_29",
+    "30_34",
+    "35_39",
+    "40_44",
+    "45_and_over"
+  ],
+  "data": [
+    {
+      "sex": "Both Sexes",
+      "overseas_workers_15_years_old_and_over": 40089,
+      "age_groups": {
+        "below_20": 873,
+        "20_24": 2763,
+        "25_29": 7500,
+        "30_34": 8535,
+        "35_39": 7375,
+        "40_44": 5507,
+        "45_and_over": 7536
+      }
+    },
+    {
+      "sex": "Male",
+      "overseas_workers_15_years_old_and_over": 11790,
+      "age_groups": {
+        "below_20": 438,
+        "20_24": 1124,
+        "25_29": 2319,
+        "30_34": 2370,
+        "35_39": 1864,
+        "40_44": 1380,
+        "45_and_over": 2295
+      }
+    },
+    {
+      "sex": "Female",
+      "overseas_workers_15_years_old_and_over": 28299,
+      "age_groups": {
+        "below_20": 435,
+        "20_24": 1639,
+        "25_29": 5181,
+        "30_34": 6165,
+        "35_39": 5511,
+        "40_44": 4127,
+        "45_and_over": 5241
+      }
+    }
+  ]
+}

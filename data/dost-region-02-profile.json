@@ -1,0 +1,130 @@
+{
+  "dost_region_02_profile": {
+    "agency_name": "Department of Science and Technology Region II",
+    "short_name": "DOST Region II",
+    "history": {
+      "year_started": 2012,
+      "background": "In 2012, the President instructed the Department of Science and Technology (DOST) to initiate the harmonization of testing laboratories in the country. The challenge at that time was to establish a framework that would address issues on harmonization, collaboration, and interfacing among laboratories while respecting their mandates and regulatory functions. This led to the establishment of a laboratory network known as the One-stop Laboratory Services for Global Competitiveness (OneLab)."
+    },
+    "onelab": {
+      "name": "One-stop Laboratory Services for Global Competitiveness",
+      "short_name": "OneLab",
+      "what_is_onelab": "The OneLab project is DOST's platform that comprehensively provides an avenue for customers to meet their testing needs at a single touch point.",
+      "scope_of_services": [
+        "Chemical testing",
+        "Physical testing",
+        "Microbiological testing",
+        "Radiological testing",
+        "Calibration services"
+      ],
+      "sample_or_product_areas": [
+        "Water",
+        "Waste water",
+        "Food",
+        "Wood",
+        "Furniture",
+        "Textile",
+        "Paper",
+        "Metals",
+        "Electronic products"
+      ],
+      "purpose": [
+        "Broaden public access to testing services of all DOST laboratories and other OneLab member laboratories",
+        "Provide standardized services and fees",
+        "Provide timely and accurate test and calibration results"
+      ],
+      "mission": "To provide global access and comprehensive analytical and calibration services at a single touch point.",
+      "vision": "To be globally-recognized network of analytical and calibration laboratories distinguished for quality, proficient services and ultimate customer convenience.",
+      "objectives": [
+        "Extensive customer requirements met to satisfaction.",
+        "Financially secured operations of the OneLab network.",
+        "Internationally recognized network of engaged, competent and proficient laboratories.",
+        "Processes at par with international standards, compliant with good governance requirements and with robust and secured IT system."
+      ]
+    },
+    "key_officials": [
+      {
+        "name": "Dr. Virginia G. Bilgera",
+        "position": "Regional Director, Office of the Regional Director",
+        "office_address": "Regional Government Center, Carig Sur, Tuguegarao City, Cagayan",
+        "contact_no": "(078) 396-0763",
+        "email": "records@ro2.dost.gov.ph"
+      },
+      {
+        "name": "Ms. Mary Ann P. Maglasin",
+        "position": "Assistant Regional Director, Finance and Administrative Support Services",
+        "office_address": "Regional Government Center, Carig Sur, Tuguegarao City, Cagayan",
+        "contact_no": null,
+        "email": "maryann.maglasin@ro2.dost.gov.ph"
+      },
+      {
+        "name": "Ms. Laila A. Taguinod",
+        "position": "Assistant Regional Director, Technical Operation Services",
+        "office_address": "Regional Government Center, Carig Sur, Tuguegarao City, Cagayan",
+        "contact_no": null,
+        "email": "lailataguinod.dost@gmail.com"
+      },
+      {
+        "name": "Ms. Nora T. Garcia",
+        "position": "Provincial Director, PSTO Batanes",
+        "office_address": "National Road, San Antonio, Basco, Batanes",
+        "contact_no": "0927-839-0265",
+        "email": "dost.pstc.batanes@gmail.com"
+      },
+      {
+        "name": "Engr. Sylvia T. Lacambra",
+        "position": "Provincial Director, PSTO Cagayan",
+        "office_address": "Regional Government Center, Carig Sur, Tuguegarao City, Cagayan",
+        "contact_no": "(078) 377 2360 / 0977-816-3066",
+        "email": "pstc.cagayan@gmail.com"
+      },
+      {
+        "name": "Ms. Rosario G. Danga",
+        "position": "Provincial Director, PSTO Isabela",
+        "office_address": "Sinabbaran Road, ISU Compound, San Fabian, Echague, Isabela",
+        "contact_no": "0975-344-1219",
+        "email": "dostpstcisabela02@gmail.com"
+      },
+      {
+        "name": "Engr. Jonathan R. Nuestro",
+        "position": "Provincial Director, PSTO Nueva Vizcaya",
+        "office_address": "Nueva Vizcaya State University – Bayombong Campus, Bayombong",
+        "contact_no": "0917-899-2145",
+        "email": "dostnuevavizcaya@yahoo.com.ph"
+      },
+      {
+        "name": "Engr. Rocela Angelica B. Gorospe",
+        "position": "Provincial Director, PSTO Quirino",
+        "office_address": "DOST Building, Quirino State College, Diffun, Quirino",
+        "contact_no": "0916-636-7727",
+        "email": "rocelaangelica.gorospe@ro2.dost.gov.ph"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is OneLab?",
+      "answer": "OneLab is DOST's platform that provides customers access to testing and calibration services through a single touch point."
+    },
+    {
+      "question": "What services are covered by OneLab?",
+      "answer": "OneLab covers chemical, physical, microbiological, radiological testing, and calibration services."
+    },
+    {
+      "question": "What kinds of samples or products can OneLab handle?",
+      "answer": "OneLab can handle water, waste water, food, wood, furniture, textile, paper, metals, and electronic products."
+    },
+    {
+      "question": "What is the mission of OneLab?",
+      "answer": "To provide global access and comprehensive analytical and calibration services at a single touch point."
+    },
+    {
+      "question": "Who is the Regional Director of DOST Region II?",
+      "answer": "The Regional Director of DOST Region II is Dr. Virginia G. Bilgera."
+    },
+    {
+      "question": "Who is the Provincial Director of PSTO Cagayan?",
+      "answer": "The Provincial Director of PSTO Cagayan is Engr. Sylvia T. Lacambra."
+    }
+  ]
+}
