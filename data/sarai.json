@@ -1,0 +1,99 @@
+{
+  "name": "Project SARAI",
+  "tagline": "Smarter farmer, smarter agriculture",
+  "type": "DOST-PCAARRD-funded smart agriculture project",
+  "description": "A national crop forecasting and monitoring initiative that provides science-based, site-specific advisories and decision support for more productive and proactive farming.",
+  "main_goal": "To develop a national crop forecasting and monitoring system that helps farmers make better decisions using weather, remote sensing, and farm-related data.",
+  "priority_crops": [
+    "Rice",
+    "Corn",
+    "Banana",
+    "Coconut",
+    "Coffee",
+    "Cacao",
+    "Sugarcane",
+    "Tomato",
+    "Soybean"
+  ],
+  "key_services": [
+    "Crop advisories",
+    "Weather forecasting",
+    "Rainfall outlook",
+    "Flood extent estimation",
+    "Agricultural monitoring reports",
+    "Remote sensing-based crop monitoring",
+    "Water-related crop stress monitoring",
+    "Drought-related vegetation stress monitoring",
+    "Irrigation decision support",
+    "Soil profiling and characterization",
+    "Pest identification support",
+    "Knowledge sharing through webinars and conferences",
+    "Knowledge portal and open data access",
+    "Mobile application support"
+  ],
+  "process_flow": [
+    "Collect weather, rainfall, crop, and remote sensing data",
+    "Analyze crop and environmental conditions",
+    "Generate science-based, site-specific advisories",
+    "Deliver reports, forecasts, maps, and decision support tools to farmers and stakeholders"
+  ],
+  "key_technologies": [
+    "Precision agriculture",
+    "Remote sensing",
+    "Automatic Weather Stations (AWS)",
+    "Ensemble forecasting",
+    "Crop forecasting systems",
+    "Flood extent estimation tools",
+    "CHIRPS daily rainfall data",
+    "Water balance-assisted irrigation decision support",
+    "Soil profiling and characterization",
+    "Mobile applications",
+    "Knowledge portal"
+  ],
+  "major_systems": [
+    "Community-level SARAi-Enhanced Agricultural Monitoring System (CL-SEAMS)",
+    "Automatic Weather Station",
+    "Water balance-Assisted Irrigation Decision Support System",
+    "Soil Profiling and Characterization",
+    "BANATECH",
+    "SPIDTECH",
+    "SARAI Eskwela",
+    "Knowledge Portal",
+    "SARAI Mobile Applications"
+  ],
+  "advisory_focus": [
+    "Nutrient management",
+    "Water management",
+    "Proactive pest monitoring",
+    "Proactive disease monitoring",
+    "Crop scheduling and farm management decisions"
+  ],
+  "monitoring_outputs": [
+    "Crop bulletins",
+    "Flood and damage extent reports",
+    "Rainfall outlooks",
+    "Agricultural monitoring maps",
+    "Crop condition monitoring",
+    "Weather forecasts"
+  ],
+  "capacity_building": {
+    "webinars": "SARAI Eskwela",
+    "conference": "SARAI Scientific Conference",
+    "knowledge_access": [
+      "Knowledge Portal",
+      "Open data resources"
+    ]
+  },
+  "target_users": [
+    "Farmers",
+    "Agricultural stakeholders",
+    "Researchers",
+    "Local government units",
+    "Extension workers"
+  ],
+  "contact": {
+    "phone": "+63 (049) 536 2251",
+    "email": "project.sarai.uplb@gmail.com",
+    "address": "SESAM UPLB, College, Laguna Philippines 4031"
+  }
+}

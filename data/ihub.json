@@ -1,0 +1,102 @@
+{
+  "name": "Innovation Hubs (iHubs)",
+  "tagline": "Igniting Ideas, Fueling Innovation",
+  "type": "DOST-led pre-incubation hub",
+  "description": "A collaborative innovation space that helps nascent startups, students, researchers, and MSMEs develop ideas, build skills, access resources, and prepare for incubation.",
+  "main_role": "Serves as a pre-incubator that bridges early-stage innovators to Technology Business Incubators (TBIs) and strengthens the regional startup ecosystem.",
+  "vision": "To be the leading STI Center for collaboration and innovation towards impactful solutions for sustainable economic growth.",
+  "mission": "To attain an innovative startup ecosystem by providing collaborative spaces and access to resources.",
+  "objectives": [
+    "Promote innovation culture in the regions",
+    "Increase the number of nascent startups",
+    "Promote the commercialization of R&D outputs"
+  ],
+  "target_beneficiaries": [
+    "Researchers",
+    "Students",
+    "MSMEs",
+    "Nascent startups"
+  ],
+  "key_services": [
+    "Soft skills development",
+    "Mentorship and expert consultation",
+    "Networking and industry linkage",
+    "Startup idea validation",
+    "Talent matching and team building",
+    "Collaborative workspace access",
+    "Business model development",
+    "Endorsement or matching to suitable TBIs",
+    "Support for commercialization of R&D outputs"
+  ],
+  "process_framework": {
+    "name": "4Is Strategy",
+    "flow": [
+      "Inspire",
+      "Interact",
+      "Ideate",
+      "Initiate"
+    ],
+    "stages": {
+      "Inspire": [
+        "Fireside Chats",
+        "Camp Fire Sessions"
+      ],
+      "Interact": [
+        "Idea Pitching",
+        "Reverse Pitching",
+        "Talent Matching"
+      ],
+      "Ideate": [
+        "Design Thinking Sessions",
+        "One-on-one Consultation",
+        "Group Sessions",
+        "Hackathon",
+        "Interact with RDIs"
+      ],
+      "Initiate": [
+        "Crafting of Business Model Canvas",
+        "Matching with suitable Technology Business Incubator"
+      ]
+    }
+  },
+  "facilities": {
+    "creative_space": "For brainstorming, casual collaboration, and small group discussions",
+    "huddle_space": "For meetings, workshops, and collaborative sessions",
+    "research_nook": "With computers and access to research tools",
+    "pantry": "For refreshments and user convenience"
+  },
+  "key_resources": [
+    "Computers",
+    "Internet access",
+    "Monitor screen",
+    "Whiteboard",
+    "STARBOOKS",
+    "TechHub"
+  ],
+  "governance": {
+    "regional_director": "Provides overall leadership and strategic direction",
+    "advisory_council": "Recommends strategies and gives guidance on major initiatives",
+    "pstds": "Facilitate setup, identify location, and build partnerships",
+    "savants": "Validate startup ideas in areas such as finance, marketing, and industry trends",
+    "sages": "Organize activities, guide startups, and connect with universities, colleges, and TBIs",
+    "prefect": "Handles daily operations, supports users, and monitors resources"
+  },
+  "operational_policies": {
+    "access": "Open to students, researchers, and nascent startups with valid ID",
+    "operating_hours": "Monday to Friday, 8:00 AM to 5:00 PM",
+    "reservation_priority": true,
+    "registration_required": true,
+    "support_available": "Prefect or help desk during operating hours"
+  },
+  "ecosystem_linkages": [
+    "Technology Business Incubators (TBIs)",
+    "Universities and colleges",
+    "Research and Development Institutions (RDIs)",
+    "Regional Startup Ecosystem Consortium"
+  ],
+  "related_events": [
+    "Innovative Startup Fest",
+    "Startup Jam",
+    "TBI Summit"
+  ]
+}

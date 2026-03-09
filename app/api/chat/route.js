@@ -295,6 +295,28 @@ function loadDostAmcenProfile() {
   }
 }
 
+function loadIhubJson() {
+  try {
+    const filePath = path.join(process.cwd(), "data", "ihub.json");
+    const raw = fs.readFileSync(filePath, "utf8");
+    return JSON.stringify(JSON.parse(raw));
+  } catch (e) {
+    console.error("Error reading ihub.json:", e);
+    return "{}";
+  }
+}
+
+function loadSaraiJson() {
+  try {
+    const filePath = path.join(process.cwd(), "data", "sarai.json");
+    const raw = fs.readFileSync(filePath, "utf8");
+    return JSON.stringify(JSON.parse(raw));
+  } catch (e) {
+    console.error("Error reading sarai.json:", e);
+    return "{}";
+  }
+}
+
 const BROCHURE_TEXT = loadBrochureText();
 const CENSUS_JSON = loadCensusData();
 const POPULATION_AGE_SEX_JSON = loadPopulationByAgeSex();
@@ -320,6 +342,8 @@ const DOST_SETUP_IFUND_JSON = loadDostSetupIfund();
 const DOST_RSTL_TESTING_FLOW_JSON = loadDostRstlTestingFlow();
 const DOST_REGION_02_PROFILE_JSON = loadDostRegion02Profile();
 const DOST_AMCEN_PROFILE_JSON = loadDostAmcenProfile();
+const IHUB_JSON = loadIhubJson();
+const SARAI_JSON = loadSaraiJson();
 
 const MICROCHEMMETRO_JSON = loadMicrochemmetroJson();
 const BROCHURE_LITE = loadBrochureLite();
@@ -389,7 +413,9 @@ function getTopic(userContent) {
   if (/fee|test|sample|rstl|rml|calibration|water test|microbiolog|chemical test|coliform|calibrat|weighing|volumetric|pressure|thermometer/i.test(q)) return "rstl";
   if (/setup|ifund|proposal|tna|moa|rtec|msme|innovation.?fund/i.test(q)) return "setup";
   if (/scholarship|jlss|apply|benefits|tuition|sei|undergraduate/i.test(q)) return "scholarships";
-  if (/cagayan|governor|capital|population|census|tourism|innovation hub|sarai|tuguegarao/i.test(q)) return "cagayan";
+  if (/ihub|innovation hub|pre-incubat|tbi|technology business incubat|startup ecosystem|4is|savants|sages|prefect/i.test(q)) return "ihub";
+  if (/sarai|project sarai|crop forecast|agricultural monitoring|smart agriculture|cl-seams|banatech|spidtech|sarai eskwela|irrigation decision|flood extent|rainfall outlook/i.test(q)) return "sarai";
+  if (/cagayan|governor|capital|population|census|tourism|tuguegarao/i.test(q)) return "cagayan";
   if (/amcen|advanced manufacturing|3d print|additive manufacturing|mirdc|itdi|metals industry|industrial technology development/i.test(q)) return "amcen";
   if (/onelab|regional director|provincial director|key officials|who is.*dost|dost region.*profile|psto|history.*dost|mission|vision.*onelab/i.test(q)) return "dost";
   return "general";
@@ -417,7 +443,13 @@ function buildSystemPromptByTopic(topic) {
   if (topic === "amcen") {
     return base + "AMCen (Advanced Manufacturing Center): use the data below for what AMCen is, goal, mission, focus areas (additive manufacturing, 3D printing), who manages it (MIRDC-ITDI partnership under DOST), process steps, and services offered (3D printing, filaments testing). Answer from the profile and FAQs only.\n\n=== AMCEN PROFILE ===\n" + DOST_AMCEN_PROFILE_JSON + "\n=== END ===\n\n" + contact;
   }
-  return base + "Answer about DOST Region II. Mention: RSTL (testing/calibration), SETUP iFUND, Scholarships (JLSS), Cagayan (FAQ, Innovation Hub), OneLab, AMCen (Advanced Manufacturing/3D printing), and key officials. Direct user to ask a specific topic for details.\n\n" + contact;
+  if (topic === "ihub") {
+    return base + "Innovation Hubs (iHubs): use the data below for what iHubs are, tagline, type, description, main role, vision, mission, objectives, target beneficiaries, key services, 4Is process (Inspire, Interact, Ideate, Initiate), facilities, resources, governance (regional director, advisory council, PSTDs, savants, sages, prefect), operating hours, access, and linkage to TBIs. Answer from the iHub data only.\n\n=== iHUB ===\n" + IHUB_JSON + "\n=== END ===\n\n" + contact;
+  }
+  if (topic === "sarai") {
+    return base + "Project SARAI: use the data below for what SARAI is, tagline, type, description, main goal, priority crops, key services, process flow, key technologies, major systems (CL-SEAMS, BANATECH, SPIDTECH, SARAI Eskwela, etc.), advisory focus, monitoring outputs, capacity building, target users, and contact. Answer from the SARAI data only.\n\n=== SARAI ===\n" + SARAI_JSON + "\n=== END ===\n\n" + contact;
+  }
+  return base + "Answer about DOST Region II. Mention: RSTL (testing/calibration), SETUP iFUND, Scholarships (JLSS), Cagayan (FAQ, Innovation Hub), iHubs (Innovation Hubs), Project SARAI (smart agriculture), OneLab, AMCen (Advanced Manufacturing/3D printing), and key officials. Direct user to ask a specific topic for details.\n\n" + contact;
 }
 
 function getFallbackAnswer(userContent) {
