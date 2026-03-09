@@ -102,21 +102,32 @@ export default function HomePage() {
   };
 
   const chatWindowRef = useRef(null);
+  const inputRef = useRef(null);
 
   useEffect(() => {
     const el = chatWindowRef.current;
     if (el) el.scrollTop = el.scrollHeight;
   }, [messages, loading]);
 
+  // Auto-focus input when response is ready so user can type without clicking
+  useEffect(() => {
+    if (!loading && inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, [loading]);
+
   return (
     <div className="dost-page">
       <div className="dost-logo-wrapper">
+        <img src="/img/cagayan.png" alt="Cagayan" className="dost-logo-container" />
         <img src="/img/dost.png" alt="DOST logo" className="dost-logo-container" />
+        <img src="/img/ihub.png" alt="iHub" className="dost-logo-container" />
+        <img src="/img/bagong-pilipinas.png" alt="Bagong Pilipinas" className="dost-logo-container" />
       </div>
 
       <div className="dost-header-title">What can I help with?</div>
       <div className="dost-subtitle">
-        Ask about DOST Region II services, programs, requirements, procedures, and more.
+        Ask about DOST R02 and Cagayan services, programs details and more.
       </div>
 
       <div className="dost-main-card">
@@ -124,14 +135,16 @@ export default function HomePage() {
           <div className="chat-window" ref={chatWindowRef}>
             {messages.length === 0 ? (
               <div className="chat-empty">
-                <p className="chat-empty-title">Welcome to the DOST Region II assistant.</p>
+                <p className="chat-empty-title">Welcome to the DOST R02 and Cagayan assistant.</p>
                 <p className="chat-empty-subtitle">Here are some things you can ask:</p>
                 <ul>
                   <li>“What services does DOST Region II offer?”</li>
                   <li>“What can you tell me about Cagayan (governor, capital, population, tourism)?”</li>
+                  <li>“What is the Cagayan Innovation Hub? What programs does it offer?”</li>
                   <li>“What is OneLab? What testing or calibration services are available?”</li>
                   <li>“How do I apply for SETUP iFUND or JLSS scholarship?”</li>
                   <li>“What is AMCen? What does the Advanced Manufacturing Center do?”</li>
+                  <li>“Tell me about Cagayan’s economy, key industries, or investment opportunities.”</li>
                 </ul>
               </div>
             ) : (
@@ -176,6 +189,7 @@ export default function HomePage() {
 
         <form className="dost-input-row" onSubmit={handleSubmit}>
           <input
+            ref={inputRef}
             className="dost-text-input"
             placeholder="Ask anything about DOST Region II…"
             value={input}
@@ -225,16 +239,6 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="logo-row">
-        <img src="/img/dost.png" alt="DOST logo" className="dost-logo-container" />
-        <img src="/img/one-cagayan.png" alt="One Cagayan" className="dost-logo-container" />
-        <img
-          src="/img/bagong-pilipinas.png"
-          alt="Bagong Pilipinas"
-          className="dost-logo-container"
-        />
-        <img src="/img/ihub.png" alt="iHub" className="dost-logo-container" />
-      </div>
     </div>
   );
 }
