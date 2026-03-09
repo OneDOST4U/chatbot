@@ -26,6 +26,17 @@
       "ITDI",
       "Research Center",
       "Emerging Technology"
+    ],
+    "process": [
+      "Letter of intent",
+      "Document received",
+      "Action on request",
+      "Consultation with AMCen staff (check requirements and materials to be used)",
+      "If available, the 3D model—we can assist in 3D modeling"
+    ],
+    "services_offered": [
+      "3D printing",
+      "Filaments testing"
     ]
   },
   "faqs": [
@@ -48,6 +59,14 @@
     {
       "question": "What is the mission of AMCen?",
       "answer": "Its mission is to establish a National Additive Manufacturing Center as a technological hub for additive manufacturing to help sustain the global competitiveness of the country."
+    },
+    {
+      "question": "What is the process in AMCen?",
+      "answer": "The process in AMCen: (1) Letter of assistance; (2) Document received at DITO; (3) Action on request; (4) Consultation with AMCen staff to check requirements and materials to be used; (5) If a 3D model is available, we can assist in 3D modeling."
+    },
+    {
+      "question": "What services does AMCen offer?",
+      "answer": "AMCen offers: 3D printing and filaments testing."
     }
   ]
 }

@@ -415,7 +415,7 @@ function buildSystemPromptByTopic(topic) {
     return base + "DOST Region II profile: use the data below for agency name, OneLab (what it is, services, mission, vision), history, and key officials (Regional Director, ARDs, Provincial Directors). Answer from the profile and FAQs only.\n\n=== DOST REGION 02 PROFILE ===\n" + DOST_REGION_02_PROFILE_JSON + "\n=== END ===\n\n" + contact;
   }
   if (topic === "amcen") {
-    return base + "AMCen (Advanced Manufacturing Center): use the data below for what AMCen is, goal, mission, focus areas (additive manufacturing, 3D printing), and who manages it (MIRDC-ITDI partnership under DOST). Answer from the profile and FAQs only.\n\n=== AMCEN PROFILE ===\n" + DOST_AMCEN_PROFILE_JSON + "\n=== END ===\n\n" + contact;
+    return base + "AMCen (Advanced Manufacturing Center): use the data below for what AMCen is, goal, mission, focus areas (additive manufacturing, 3D printing), who manages it (MIRDC-ITDI partnership under DOST), process steps, and services offered (3D printing, filaments testing). Answer from the profile and FAQs only.\n\n=== AMCEN PROFILE ===\n" + DOST_AMCEN_PROFILE_JSON + "\n=== END ===\n\n" + contact;
   }
   return base + "Answer about DOST Region II. Mention: RSTL (testing/calibration), SETUP iFUND, Scholarships (JLSS), Cagayan (FAQ, Innovation Hub), OneLab, AMCen (Advanced Manufacturing/3D printing), and key officials. Direct user to ask a specific topic for details.\n\n" + contact;
 }
