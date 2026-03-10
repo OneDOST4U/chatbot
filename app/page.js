@@ -54,12 +54,13 @@ export default function HomePage() {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: newMessages })
+        body: JSON.stringify({ messages: newMessages, stream: true })
       });
 
-      const data = await res.json().catch(() => ({}));
+      const contentType = res.headers.get("content-type") || "";
 
       if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
         const msg = data.answer || "Request failed. Please try again.";
         setMessages([
           ...messages,
@@ -70,6 +71,42 @@ export default function HomePage() {
         return;
       }
 
+      if (contentType.includes("application/x-ndjson") && res.body) {
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let accumulated = "";
+        let buffer = "";
+        let streamDone = false;
+        while (!streamDone) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          buffer += decoder.decode(value, { stream: true });
+          const lines = buffer.split("\n");
+          buffer = lines.pop() || "";
+          for (const line of lines) {
+            if (!line.trim()) continue;
+            try {
+              const obj = JSON.parse(line);
+              if (obj.content) accumulated += obj.content;
+              if (obj.fallback) accumulated = obj.fallback;
+              if (obj.error) accumulated = obj.error;
+              if (obj.done) streamDone = true;
+            } catch (_) {}
+          }
+          setMessages((prev) => {
+            const next = [...prev];
+            const last = next[next.length - 1];
+            if (last?.role === "assistant") {
+              next[next.length - 1] = { ...last, content: accumulated || LOADING_PLACEHOLDER };
+            }
+            return next;
+          });
+        }
+        setLoading(false);
+        return;
+      }
+
+      const data = await res.json().catch(() => ({}));
       setMessages([
         ...messages,
         { role: "user", content: text },

@@ -1,27 +1,28 @@
 import { NextResponse } from "next/server";
-import Groq from "groq-sdk";
 import fs from "fs";
 import path from "path";
 
 export const runtime = "nodejs";
 
-function getGroqApiKey() {
-  let key = (process.env.GROQ_API_KEY || "").trim();
+function getTogetherApiKey() {
+  let key = (process.env.TOGETHER_API_KEY || "").trim();
   if (!key) {
     try {
       const envPath = path.join(process.cwd(), ".env.local");
       if (fs.existsSync(envPath)) {
-        const content = fs.readFileSync(envPath, "utf8");
-        const match = content.match(/GROQ_API_KEY\s*=\s*(.+)/);
-        if (match) key = (match[1].trim().replace(/^["']|["']$/g, "") || "").trim();
+        const content = fs.readFileSync(envPath, "utf8").replace(/\r\n/g, "\n").replace(/^\uFEFF/, "");
+        for (const line of content.split("\n")) {
+          const trimmed = line.trim();
+          if (trimmed.startsWith("TOGETHER_API_KEY=")) {
+            key = trimmed.slice("TOGETHER_API_KEY=".length).trim().replace(/^["']|["']$/g, "");
+            break;
+          }
+        }
       }
     } catch (_) {}
   }
   return key || undefined;
 }
-
-const GROQ_API_KEY = getGroqApiKey();
-const groq = new Groq({ apiKey: GROQ_API_KEY });
 
 function loadBrochureText() {
   try {
@@ -377,8 +378,8 @@ const SCHOLARSHIPS_SUMMARY =
 
 const MAX_HISTORY_MESSAGES = 6;
 const MAX_MESSAGE_LENGTH = 500;
-const MAX_HISTORY_TOKENS = 400;
-const HISTORY_TRUNCATE_CHARS = 300;
+const MAX_HISTORY_TOKENS = 300;
+const HISTORY_TRUNCATE_CHARS = 280;
 
 function approxTokens(str) {
   return Math.ceil((typeof str === "string" ? str.length : 0) / 4);
@@ -454,14 +455,65 @@ const FALLBACK_SERVICES_ANSWER =
   "• **Cagayan Innovation Hub** – Joint PLGU–DOST facility with Decision Intelligence Center and SARAI Provincial Hub.\n\n" +
   "**Contact:** DOST Region II, Regional Government Center, Carig Sur, Tuguegarao City. Phone: 0929 621 6871. Mon–Fri 8 AM–5 PM. https://region2.dost.gov.ph/";
 
+const FALLBACK_GOVERNOR_ANSWER =
+  "**Cagayan province:** As of 2026, the governor of Cagayan is **Edgar 'Manong Egay' Aglipay**. The vice governor is **Manuel Mamba**.\n\nFor other provinces in Region II (Batanes, Isabela, Nueva Vizcaya, Quirino), say which province you mean.";
+
+const FALLBACK_IHUB_ANSWER =
+  "**Innovation Hubs (iHubs)** – *Igniting Ideas, Fueling Innovation*\n\n" +
+  "iHubs are DOST-led pre-incubation hubs that help nascent startups, students, researchers, and MSMEs develop ideas, build skills, access resources, and prepare for incubation. They bridge early-stage innovators to Technology Business Incubators (TBIs).\n\n" +
+  "**Key services:** Soft skills development, mentorship, networking, startup idea validation, talent matching, collaborative workspace, business model development, and matching to TBIs.\n\n" +
+  "**4Is process:** Inspire → Interact → Ideate → Initiate. Open Mon–Fri 8 AM–5 PM; registration required. **Contact:** DOST Region II, Regional Government Center, Carig Sur, Tuguegarao City. Phone: 0929 621 6871.";
+
+const FALLBACK_SCHOLARSHIP_ANSWER =
+  "**DOST Region II Scholarships**\n\n" +
+  "• **JLSS (Junior Level Science Scholarship)** – For qualified 2nd year college students in science and technology. Benefits include: tuition (up to P40,000 per academic year), P7,000/month living allowance, thesis allowance, and insurance.\n\n" +
+  "• **How to apply:** Online at **ugrad.eceenrolscholarships.ph**\n\n" +
+  "• **Contact:** DOST Region 02 Scholarship Unit — **0997-556-2214** | sei.dost.gov.ph\n\n" +
+  "• **Office:** DOST Region II, Regional Government Center, Carig Sur, Tuguegarao City. Mon–Fri 8 AM–5 PM.\n\n" +
+  "Ask for “scholarship requirements” or “JLSS eligibility” if you need more details.";
+
+const FALLBACK_PROGRAMS_ANSWER =
+  "**Current DOST Region II programs and projects:**\n\n" +
+  "• **RSTL** – Regional Standards and Testing Laboratory (testing, calibration)\n" +
+  "• **SETUP iFUND** – Innovation-Enabling Fund for MSMEs\n" +
+  "• **Scholarships** – JLSS and related programs (apply: ugrad.eceenrolscholarships.ph; contact 0997-556-2214)\n" +
+  "• **Cagayan Innovation Hub** – Pre-incubation, Decision Intelligence Center, SARAI Provincial Hub\n" +
+  "• **iHubs (Innovation Hubs)** – Pre-incubation for startups, students, researchers, MSMEs\n" +
+  "• **Project SARAI** – Smart agriculture, crop forecasting, advisories\n" +
+  "• **AMCen** – Advanced Manufacturing Center (3D printing, additive manufacturing)\n" +
+  "• **OneLab** – Network of testing and calibration labs\n\n" +
+  "**Contact:** DOST Region II, Carig Sur, Tuguegarao City. Phone: 0929 621 6871. https://region2.dost.gov.ph/";
+
+const FALLBACK_DATASETS_ANSWER =
+  "**What I can answer from (data/knowledge):**\n\n" +
+  "• **Cagayan** – Capital, governor, population, tourism, census, economy, Innovation Hub\n" +
+  "• **DOST Region II services** – RSTL (testing/calibration), SETUP iFUND, Scholarships (JLSS), contact\n" +
+  "• **Programs & projects** – RSTL, SETUP iFUND, Scholarships, iHubs, SARAI, AMCen, OneLab\n" +
+  "• **iHubs** – What they are, 4Is, services, hours\n" +
+  "• **Project SARAI** – Smart agriculture, crops, advisories\n" +
+  "• **AMCen** – Advanced manufacturing, 3D printing\n" +
+  "• **OneLab / DOST profile** – Mission, vision, key officials\n\n" +
+  "Ask a specific topic (e.g. “Cagayan governor”, “scholarship”, “RSTL fees”) for detailed answers.";
+
+const CRISIS_RESPONSE =
+  "If you are in crisis or having thoughts of hurting yourself, please reach out now:\n\n" +
+  "• **NCMH Crisis Hotline:** 0917-899-8727 (Globe/TM) | 0922-899-8727 (Smart/Sun/TNT)\n" +
+  "• **Hopeline Philippines:** 2919 (toll-free for Globe/TM)\n" +
+  "• **24/7:** You are not alone; trained people are there to listen and help.\n\n" +
+  "**DOST scholarships** can support your studies. For JLSS and other DOST Region II scholarships: apply at **ugrad.eceenrolscholarships.ph** or contact DOST Region 02 Scholarship Unit **0997-556-2214**, sei.dost.gov.ph. Office: DOST Region II, Carig Sur, Tuguegarao City. Mon–Fri 8 AM–5 PM.";
+
 function getTopic(userContent) {
   const q = (userContent || "").toLowerCase();
+  const mentionsCagayan =
+    /cagayan|tuguegarao/i.test(q) || hasApproxWord(q, "cagayan", 2);
+
+  if (mentionsCagayan) return "cagayan";
+
   if (/fee|test|sample|rstl|rml|calibration|water test|microbiolog|chemical test|coliform|calibrat|weighing|volumetric|pressure|thermometer/i.test(q)) return "rstl";
   if (/setup|ifund|proposal|tna|moa|rtec|msme|innovation.?fund/i.test(q)) return "setup";
   if (/scholarship|jlss|apply|benefits|tuition|sei|undergraduate/i.test(q)) return "scholarships";
   if (/ihub|innovation hub|pre-incubat|tbi|technology business incubat|startup ecosystem|4is|savants|sages|prefect/i.test(q)) return "ihub";
   if (/sarai|project sarai|crop forecast|agricultural monitoring|smart agriculture|cl-seams|banatech|spidtech|sarai eskwela|irrigation decision|flood extent|rainfall outlook/i.test(q)) return "sarai";
-  if (/cagayan|governor|capital|population|census|tourism|tuguegarao/i.test(q) || hasApproxWord(q, "cagayan", 2)) return "cagayan";
   if (/amcen|advanced manufacturing|3d print|additive manufacturing|mirdc|itdi|metals industry|industrial technology development/i.test(q)) return "amcen";
   if (/onelab|regional director|provincial director|key officials|who is.*dost|dost region.*profile|psto|history.*dost|mission|vision.*onelab/i.test(q)) return "dost";
   return "general";
@@ -569,16 +621,32 @@ function buildCagayanOverviewAnswer() {
 }
 
 function getFallbackAnswer(userContent) {
-  const q = (userContent || "").toLowerCase();
+  const q = (userContent || "").toLowerCase().trim();
   if (/what services|what does dost|dost offer|offer.*dost|services.*dost|dost region.*offer/i.test(q))
     return FALLBACK_SERVICES_ANSWER;
+  if (/governor|who is governor|who.*governor|vice governor/i.test(q))
+    return FALLBACK_GOVERNOR_ANSWER;
+  if (/ihub|i hub|innovation hub/i.test(q))
+    return FALLBACK_IHUB_ANSWER;
+  if (/kill myself|suicide|want to die|end my life|hurt myself|don't want to live/i.test(q))
+    return CRISIS_RESPONSE;
+  if (/scholar|scholarship|want to become scholar|apply for scholarship|become scholar|dost scholar|no money.*study|study.*no money/i.test(q))
+    return FALLBACK_SCHOLARSHIP_ANSWER;
+  if (/programs|projects|what are.*dost programs|current.*programs|dost projects/i.test(q))
+    return FALLBACK_PROGRAMS_ANSWER;
+  if (/data sets|datasets|what data|what information do you have|what can you tell|your data|your knowledge|what do you know/i.test(q))
+    return FALLBACK_DATASETS_ANSWER;
   return null;
 }
 
 export async function POST(req) {
-  if (!GROQ_API_KEY) {
+  const apiKey = getTogetherApiKey();
+  if (!apiKey) {
     return NextResponse.json(
-      { answer: "GROQ_API_KEY is not configured on the server. Add it to .env.local in the project root and restart the dev server (e.g. stop and run npm run dev again)." },
+      {
+        answer:
+          "TOGETHER_API_KEY is not configured on the server. Add it to .env.local in the project root and restart the dev server (e.g. stop and run npm run dev again)."
+      },
       { status: 500 }
     );
   }
@@ -643,33 +711,101 @@ export async function POST(req) {
       { role: "user", content: userContent }
     ];
 
-    const completion = await groq.chat.completions.create({
-      model: "llama-3.3-70b-versatile",
-      messages,
-      temperature: 0.2,
-      max_tokens: 800
+    const wantStream = body.stream === true;
+
+    const response = await fetch("https://api.together.xyz/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${apiKey}`
+      },
+      body: JSON.stringify({
+        model: "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+        messages,
+        temperature: 0.2,
+        max_tokens: 500,
+        stream: wantStream
+      })
     });
 
-    const answer =
-      completion.choices?.[0]?.message?.content ||
-      "Sorry, I could not generate an answer.";
+    if (!response.ok) {
+      const data = await response.json().catch(() => ({}));
+      throw new Error(data?.error?.message || `Together API error: ${response.status}`);
+    }
+
+    if (wantStream && response.body) {
+      const encoder = new TextEncoder();
+      let fullContent = "";
+      const stream = new ReadableStream({
+        async start(controller) {
+          try {
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder();
+            let buffer = "";
+            while (true) {
+              const { done, value } = await reader.read();
+              if (done) break;
+              buffer += decoder.decode(value, { stream: true });
+              const lines = buffer.split("\n");
+              buffer = lines.pop() || "";
+              for (const line of lines) {
+                if (line.startsWith("data: ") && line !== "data: [DONE]") {
+                  try {
+                    const json = JSON.parse(line.slice(6));
+                    const chunk = json.choices?.[0]?.delta?.content;
+                    if (typeof chunk === "string" && chunk) {
+                      fullContent += chunk;
+                      controller.enqueue(encoder.encode(JSON.stringify({ content: chunk }) + "\n"));
+                    }
+                  } catch (_) {}
+                }
+              }
+            }
+            if (!fullContent.trim()) {
+              const fallback = getFallbackAnswer(userContent);
+              const msg = fallback || "Sorry, I could not generate an answer.";
+              controller.enqueue(encoder.encode(JSON.stringify({ fallback: msg }) + "\n"));
+            }
+            controller.enqueue(encoder.encode(JSON.stringify({ done: true }) + "\n"));
+          } catch (e) {
+            controller.enqueue(encoder.encode(JSON.stringify({ error: e?.message || "Stream error" }) + "\n"));
+          } finally {
+            controller.close();
+          }
+        }
+      });
+      return new Response(stream, {
+        headers: { "Content-Type": "application/x-ndjson", "Cache-Control": "no-cache" }
+      });
+    }
+
+    const data = await response.json().catch(() => ({}));
+    let answer =
+      data.choices?.[0]?.message?.content ||
+      "";
+    if (!answer.trim()) {
+      const fallback = getFallbackAnswer(userContent);
+      answer = fallback || "Sorry, I could not generate an answer.";
+    }
 
     return NextResponse.json({ answer });
   } catch (e) {
     const errMsg = e?.message || String(e);
     console.error("Chat route error:", errMsg);
-    const isKeyError = /API key|GROQ|401|403|credentials|unauthorized/i.test(errMsg);
+    const isKeyError = /API key|TOGETHER|401|403|credentials|unauthorized/i.test(errMsg);
     const isTooLong = /request too large|reduce your message size|rate_limit|TPM|tokens/i.test(errMsg);
     let answer;
     if (isKeyError) {
       const fallback = getFallbackAnswer(userContent);
       answer = fallback
-        ? `${fallback}\n\n---\n*Note: The AI chat is currently unavailable (API key issue). The information above is from our knowledge base. To restore full chat, add a valid GROQ_API_KEY to .env.local and restart the server.*`
-        : "The chat service could not authenticate. Check that GROQ_API_KEY in .env.local is correct and valid, then restart the dev server (stop and run npm run dev again). See the server terminal for the exact error.";
+        ? `${fallback}\n\n---\n*Note: The AI chat is currently unavailable (API key issue). The information above is from our knowledge base. To restore full chat, add a valid TOGETHER_API_KEY to .env.local and restart the server.*`
+        : "The chat service could not authenticate. Check that TOGETHER_API_KEY in .env.local is correct and valid, then restart the dev server (stop and run npm run dev again). See the server terminal for the exact error.";
     } else if (isTooLong)
       answer = "The request was too long for the chat service. Please try a shorter question or contact the developer to reduce the data loaded.";
-    else
-      answer = `Sorry, an error occurred: ${errMsg}`;
+    else {
+      const fallback = getFallbackAnswer(userContent);
+      answer = fallback || `Sorry, an error occurred: ${errMsg}`;
+    }
     return NextResponse.json({ answer }, { status: 200 });
   }
 }
