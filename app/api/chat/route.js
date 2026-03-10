@@ -336,6 +336,13 @@ const HOUSEHOLDS_LAND_OWNERSHIP_JSON = loadHouseholdsLandOwnership();
 const HOUSEHOLDS_BY_LANGUAGE_JSON = loadHouseholdsByLanguage();
 const HOUSEHOLDS_INTENDED_RESIDENCE_JSON = loadHouseholdsIntendedResidence();
 const CAGAYAN_FAQ_JSON = loadCagayanFaq();
+const CAGAYAN_FAQ_DATA = (() => {
+  try {
+    return JSON.parse(CAGAYAN_FAQ_JSON || "{}");
+  } catch (_) {
+    return null;
+  }
+})();
 const CAGAYAN_INNOVATION_HUB_TEXT = loadCagayanInnovationHub();
 const DOST_SCHOLARSHIPS_JSON = loadDostScholarships();
 const DOST_SETUP_IFUND_JSON = loadDostSetupIfund();
@@ -400,6 +407,45 @@ function buildHistoryWithTokenCap(messages, maxTokens = MAX_HISTORY_TOKENS) {
   return kept;
 }
 
+function levenshtein(a, b) {
+  const s = (a || "").toLowerCase();
+  const t = (b || "").toLowerCase();
+  const m = s.length;
+  const n = t.length;
+  if (m === 0) return n;
+  if (n === 0) return m;
+  const dp = new Array(n + 1);
+  for (let j = 0; j <= n; j++) dp[j] = j;
+  for (let i = 1; i <= m; i++) {
+    let prev = dp[0];
+    dp[0] = i;
+    for (let j = 1; j <= n; j++) {
+      const temp = dp[j];
+      const cost = s[i - 1] === t[j - 1] ? 0 : 1;
+      dp[j] = Math.min(
+        dp[j] + 1,
+        dp[j - 1] + 1,
+        prev + cost
+      );
+      prev = temp;
+    }
+  }
+  return dp[n];
+}
+
+function hasApproxWord(text, target, maxDistance = 1) {
+  const cleaned = (text || "").toLowerCase();
+  const t = (target || "").toLowerCase();
+  if (!cleaned || !t) return false;
+  const words = cleaned.split(/[^a-z]+/).filter(Boolean);
+  for (const w of words) {
+    if (w === t) return true;
+    if (Math.abs(w.length - t.length) > maxDistance + 1) continue;
+    if (levenshtein(w, t) <= maxDistance) return true;
+  }
+  return false;
+}
+
 const FALLBACK_SERVICES_ANSWER =
   "**DOST Region II offers these main services:**\n\n" +
   "• **RSTL (Regional Standards and Testing Laboratory)** – Testing and calibration: microbiological (water, food/feeds, plant extracts), chemical (water, food/feeds, plant extracts), and calibration services. You submit a sample, pay the fee, and claim the test report with your Job Order and Official Receipt.\n\n" +
@@ -415,7 +461,7 @@ function getTopic(userContent) {
   if (/scholarship|jlss|apply|benefits|tuition|sei|undergraduate/i.test(q)) return "scholarships";
   if (/ihub|innovation hub|pre-incubat|tbi|technology business incubat|startup ecosystem|4is|savants|sages|prefect/i.test(q)) return "ihub";
   if (/sarai|project sarai|crop forecast|agricultural monitoring|smart agriculture|cl-seams|banatech|spidtech|sarai eskwela|irrigation decision|flood extent|rainfall outlook/i.test(q)) return "sarai";
-  if (/cagayan|governor|capital|population|census|tourism|tuguegarao/i.test(q)) return "cagayan";
+  if (/cagayan|governor|capital|population|census|tourism|tuguegarao/i.test(q) || hasApproxWord(q, "cagayan", 2)) return "cagayan";
   if (/amcen|advanced manufacturing|3d print|additive manufacturing|mirdc|itdi|metals industry|industrial technology development/i.test(q)) return "amcen";
   if (/onelab|regional director|provincial director|key officials|who is.*dost|dost region.*profile|psto|history.*dost|mission|vision.*onelab/i.test(q)) return "dost";
   return "general";
@@ -450,6 +496,76 @@ function buildSystemPromptByTopic(topic) {
     return base + "Project SARAI: use the data below for what SARAI is, tagline, type, description, main goal, priority crops, key services, process flow, key technologies, major systems (CL-SEAMS, BANATECH, SPIDTECH, SARAI Eskwela, etc.), advisory focus, monitoring outputs, capacity building, target users, and contact. Answer from the SARAI data only.\n\n=== SARAI ===\n" + SARAI_JSON + "\n=== END ===\n\n" + contact;
   }
   return base + "Answer about DOST Region II. Mention: RSTL (testing/calibration), SETUP iFUND, Scholarships (JLSS), Cagayan (FAQ, Innovation Hub), iHubs (Innovation Hubs), Project SARAI (smart agriculture), OneLab, AMCen (Advanced Manufacturing/3D printing), and key officials. Direct user to ask a specific topic for details.\n\n" + contact;
+}
+
+function buildCagayanOverviewAnswer() {
+  const data = CAGAYAN_FAQ_DATA;
+  const faqs = Array.isArray(data?.faq) ? data.faq : [];
+  if (!faqs.length) return null;
+
+  const findAnswer = (pattern) => {
+    const re = pattern;
+    for (const item of faqs) {
+      const q = (item.question || "").toLowerCase();
+      if (re.test(q)) return item.answer || "";
+    }
+    return "";
+  };
+
+  const overview = findAnswer(/what is cagayan\?/);
+  const capital = findAnswer(/capital of cagayan/);
+  const population = findAnswer(/population of cagayan/);
+  const governor = findAnswer(/governor of cagayan/);
+  const tourism = findAnswer(/some well-known tourist attractions in cagayan/);
+  const tourism2 = findAnswer(/most well-known tourist attractions in cagayan/);
+  const economy = findAnswer(/economy of cagayan known for/);
+  const industries = findAnswer(/major industries in cagayan/);
+
+  const lines = [];
+  lines.push("Here is an overview of Cagayan based on our provincial data:");
+
+  if (overview) {
+    lines.push("");
+    lines.push(overview);
+  }
+
+  const keyFacts = [];
+  if (capital) keyFacts.push(`• Capital: ${capital.replace(/^the capital of cagayan is\\s*/i, "")}`);
+  if (governor)
+    keyFacts.push(`• Governor: ${governor.replace(/^as of 2026, the governor of cagayan is\\s*/i, "")}`);
+  if (population)
+    keyFacts.push(`• Population (2020 Census): ${population.replace(/^based on the 2020 census,\\s*/i, "")}`);
+
+  if (keyFacts.length) {
+    lines.push("");
+    lines.push("Key facts:");
+    lines.push(...keyFacts);
+  }
+
+  const tourismLines = [];
+  if (tourism) tourismLines.push(`• ${tourism}`);
+  if (tourism2) tourismLines.push(`• ${tourism2}`);
+  if (tourismLines.length) {
+    lines.push("");
+    lines.push("Tourism highlights:");
+    lines.push(...tourismLines);
+  }
+
+  const economyLines = [];
+  if (economy) economyLines.push(`• ${economy}`);
+  if (industries) economyLines.push(`• ${industries}`);
+  if (economyLines.length) {
+    lines.push("");
+    lines.push("Economy and industries:");
+    lines.push(...economyLines);
+  }
+
+  if (INNOVATION_HUB_SUMMARY) {
+    lines.push("");
+    lines.push(`Innovation Hub: ${INNOVATION_HUB_SUMMARY}`);
+  }
+
+  return lines.join("\n");
 }
 
 function getFallbackAnswer(userContent) {
@@ -502,6 +618,23 @@ export async function POST(req) {
 
     // Topic router: send only relevant data to stay ~2k tokens per chat
     const topic = getTopic(userContent);
+
+    // Deterministic overview for broad Cagayan questions, including minor typos
+    if (topic === "cagayan") {
+      const lower = userContent.toLowerCase();
+      const isBroadCagayanQuestion =
+        hasApproxWord(lower, "cagayan", 2) &&
+        /(what can you tell|what.*information|what.*data|tell me about|overview|profile|general information|details)/i.test(
+          lower
+        );
+      if (isBroadCagayanQuestion) {
+        const overviewAnswer = buildCagayanOverviewAnswer();
+        if (overviewAnswer) {
+          return NextResponse.json({ answer: overviewAnswer });
+        }
+      }
+    }
+
     const systemPrompt = buildSystemPromptByTopic(topic);
 
     const messages = [
