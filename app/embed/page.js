@@ -180,7 +180,7 @@ export default function EmbedPage() {
           ))}
         </div>
         <div className="dost-footer dost-embed-footer">
-          DOST R02 and Cagayan knowledge base. For official details, contact Cagayan and DOST R02 Office.
+          DOST R02 and Cagayan knowledge base. For official details, contact Cagayan and DOST R02 Office. | Developed by DOST Region II
         </div>
       </div>
     </div>
