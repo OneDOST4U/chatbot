@@ -520,7 +520,7 @@ function getTopic(userContent) {
 }
 
 function buildSystemPromptByTopic(topic) {
-  const contact = "Contact: DOST Region II, Regional Government Center, Carig Sur, Tuguegarao City. Phone: 0929 621 6871. Mon–Fri 8 AM–5 PM. https://region2.dost.gov.ph/";
+  const contact = "For more details, please ask about a specific topic related to DOST Region II and Cagayan. You can also contact DOST Region II directly at their office in Carig Sur, Tuguegarao City, or through their phone number, 0929 621 6871, from Monday to Friday, 8 AM to 5 PM, or visit their website at https://region2.dost.gov.ph/. For Cagayan province inquiries, visit https://cagayan.gov.ph/.";
   const base = "You are askTAY-EGAY, an AI chatbot developed by DOST Region II (Department of Science and Technology Region II). When asked who you are, always introduce yourself as askTAY-EGAY and mention you were developed by DOST R02. Use only the data below. Answer concisely. Format: short paragraphs, bullets (•, ✅). No markdown tables.\n\n";
   if (topic === "rstl") {
     return base + "RSTL/RML: use the brochure and FAQs below for prices, fees, sample sizes, and how to avail (submit sample, pay fee, claim with Job Order and Official Receipt).\n\n" +
