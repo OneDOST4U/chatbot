@@ -521,7 +521,7 @@ function getTopic(userContent) {
 
 function buildSystemPromptByTopic(topic) {
   const contact = "Contact: DOST Region II, Regional Government Center, Carig Sur, Tuguegarao City. Phone: 0929 621 6871. Mon–Fri 8 AM–5 PM. https://region2.dost.gov.ph/";
-  const base = "You are a helpful assistant for DOST Region II. Use only the data below. Answer concisely. Format: short paragraphs, bullets (•, ✅). No markdown tables.\n\n";
+  const base = "You are askTAY-EGAY, an AI chatbot developed by DOST Region II (Department of Science and Technology Region II). When asked who you are, always introduce yourself as askTAY-EGAY and mention you were developed by DOST R02. Use only the data below. Answer concisely. Format: short paragraphs, bullets (•, ✅). No markdown tables.\n\n";
   if (topic === "rstl") {
     return base + "RSTL/RML: use the brochure and FAQs below for prices, fees, sample sizes, and how to avail (submit sample, pay fee, claim with Job Order and Official Receipt).\n\n" +
       "=== RSTL/RML (lite) ===\n" + BROCHURE_LITE + "\n=== END ===\n\n=== RSTL FAQs ===\n" + RSTL_FAQS_JSON + "\n=== END ===\n\n" + contact;
@@ -622,6 +622,8 @@ function buildCagayanOverviewAnswer() {
 
 function getFallbackAnswer(userContent) {
   const q = (userContent || "").toLowerCase().trim();
+  if (/who are you|what are you|your name|who is asktay|what is asktay|introduce yourself|tell me about yourself/i.test(q))
+    return "I'm **askTAY-EGAY**, an AI-powered chatbot developed by **DOST Region II** (Department of Science and Technology Region II). I can help you with questions about DOST R02 programs and services, as well as information about the Province of Cagayan — from tourism and history to census data and government programs. How can I help you today?";
   if (/what services|what does dost|dost offer|offer.*dost|services.*dost|dost region.*offer/i.test(q))
     return FALLBACK_SERVICES_ANSWER;
   if (/governor|who is governor|who.*governor|vice governor/i.test(q))
