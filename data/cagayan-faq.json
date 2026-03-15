@@ -113,6 +113,143 @@
     {
       "question": "What makes Cagayan important overall?",
       "answer": "Cagayan is important because of its river systems, eastern mountain and coastal environments, caves, islands, tourism assets, agricultural base, and its role as a major province in Region II for local economy, public services, and regional development."
+    },
+    {
+      "question": "What is Cagayan known for?",
+      "answer": "Cagayan is known for its rich Ibanag, Itawis, and Ilocano heritage, historic churches, pilgrimage sites, natural attractions such as Palaui Island, Callao Cave, and Buntun Bridge, and its important place in Philippine colonial history as one of the earliest Spanish colonial provinces."
+    },
+    {
+      "question": "What are the tourist spots in Cagayan?",
+      "answer": "Some of the well-known tourist spots in Cagayan include Our Lady of Piat (Mother of Cagayan and major pilgrimage center), Palaui Island (pristine island with dramatic coastlines and rich marine life), Callao Cave (limestone cave system famous for the Callao Man archaeological discovery), Buntun Bridge (iconic bridge spanning the Cagayan River in Tuguegarao), and Babuyan Claro (volcanic island with lush landscapes and clear waters)."
+    },
+    {
+      "question": "What is the history of Cagayan?",
+      "answer": "Cagayan was one of the early provinces established during the Spanish colonial period. It was called La Provincia de Cagayan and was organized in 1583 by Spanish Royal Decree. Its original capital was Nueva Segovia, now present-day Lal-lo. Spanish friars established mission posts and the Diocese of Nueva Segovia, and the influence of the colonial era is still visible in the massive churches and heritage structures across the province."
+    },
+    {
+      "question": "What festival is celebrated in Cagayan?",
+      "answer": "One of the major festivals in Cagayan is the Sambali Festival, which commemorates the founding of the province through color, music, and cultural performances. It is an annual celebration showcasing the province's rich cultural pride."
+    },
+    {
+      "question": "Why is Our Lady of Piat important?",
+      "answer": "Our Lady of Piat is considered the Mother of Cagayan and is a major pilgrimage center in Northern Luzon. The Basilica Minore of Our Lady of Piat in Piat municipality houses a centuries-old sacred image that draws thousands of pilgrims and devotees each year."
+    },
+    {
+      "question": "Where is Cagayan located?",
+      "answer": "Cagayan is located at the northeastern tip of Luzon in Region II or Cagayan Valley. It is approximately 431 kilometers from Manila. It is bounded by the Philippine Sea on the east, Isabela on the south, the Cordillera Mountains on the west, and the Balintang Channel and Babuyan Group of Islands on the north."
+    },
+    {
+      "question": "What are the physical features of Cagayan?",
+      "answer": "Cagayan's major physical features include the Cagayan River (the country's longest river) which forms the central valley, the Sierra Madre mountain range along the eastern coast, and the Babuyan Islands to the north. The province covers the northeastern tip of Luzon and has a diverse landscape of mountains, valleys, rivers, and coastlines."
+    },
+    {
+      "question": "What cultures and ethnic groups are found in Cagayan?",
+      "answer": "Cagayan preserves a rich blend of Ibanag, Itawis, and Ilocano heritage. The province's culture reflects native, oriental, and colonial influences expressed through traditional weaving, craftsmanship, and vibrant festivals."
+    },
+    {
+      "question": "What is the tourism slogan of Cagayan?",
+      "answer": "Cagayan's tourism branding is 'Cagayan: Land of Smile and Beauty.' The promotional message highlights exploring the majestic peaks of the Sierra Madre and the tranquil flow of the mighty Cagayan River."
+    },
+    {
+      "question": "What is Palaui Island?",
+      "answer": "Palaui Island is one of Cagayan's top tourist destinations. It is a pristine island located in Santa Ana with dramatic coastlines, rich marine life, rugged cliffs, grasslands, white coral beaches, and the historic Cape Engaño Lighthouse."
+    },
+    {
+      "question": "What is Callao Cave?",
+      "answer": "Callao Cave is a limestone cave system in Peñablanca, Cagayan, known for its natural chambers and the discovery of the Callao Man — one of the oldest known human remains in the Philippines. It is part of the Callao Eco-Niche and Conservation Park."
+    },
+    {
+      "question": "What is Babuyan Claro?",
+      "answer": "Babuyan Claro is a volcanic island located in the Babuyan Group of Islands north of mainland Cagayan. It is known for its lush landscapes, clear waters, and natural beauty."
+    },
+    {
+      "question": "When was Cagayan established?",
+      "answer": "Cagayan was established in 1583 by Spanish Royal Decree as La Provincia de Cagayan. It is one of the earliest provinces organized during the Spanish colonial period in the Philippines."
+    },
+    {
+      "question": "What is the Diocese of Nueva Segovia?",
+      "answer": "The Diocese of Nueva Segovia was established by Spanish friars during the colonial era, with its seat in Nueva Segovia, which is now present-day Lal-lo in Cagayan. It was one of the earliest Catholic dioceses established in the Philippines and its influence is still visible in the historic churches across the province."
     }
-  ]
+  ],
+  "overview": {
+    "id": "cagayan_overview_001",
+    "title": "Cagayan Province Overview",
+    "category": "tourism_culture_history_geography",
+    "province": "Cagayan",
+    "region": "Region II (Cagayan Valley)",
+    "capital": "Tuguegarao City",
+    "description": "Cagayan is a province in the Philippines located at the northeastern tip of Luzon. It is known for its rich cultural heritage, historic churches, natural attractions, and its role as one of the earliest Spanish colonial provinces in the country.",
+    "culture_and_heritage": {
+      "summary": "Cagayan preserves a rich blend of Ibanag, Itawis, and Ilocano heritage.",
+      "influences": ["Native", "Oriental", "Colonial"],
+      "expressions": ["Traditional weaving", "Craftsmanship", "Vibrant festivals"]
+    },
+    "spirituality": {
+      "summary": "Faith and tradition are at the heart of Cagayano life.",
+      "details": ["Home to centuries-old churches", "Active pilgrimage routes"]
+    },
+    "major_festival": {
+      "name": "Sambali Festival",
+      "location": "Cagayan",
+      "description": "Annual celebration commemorating the founding of the province through color, music, and cultural pride."
+    },
+    "historical_background": {
+      "headline": "A Tapestry of Centuries",
+      "details": [
+        "Cagayan was one of the early provinces during the Spanish colonial period.",
+        "It was called La Provincia de Cagayan.",
+        "It was organized in 1583 by Spanish Royal Decree.",
+        "Its capital was Nueva Segovia, now present-day Lal-lo.",
+        "Spanish friars established mission posts and the Diocese of Nueva Segovia.",
+        "Colonial influence remains visible in churches and heritage structures across the province."
+      ]
+    },
+    "geography": {
+      "headline": "Northeastern Jewel of Luzon",
+      "location_description": "Cagayan covers the northeastern tip of Luzon and includes the Babuyan Islands to the north.",
+      "distance_from_manila_km": 431,
+      "boundaries": {
+        "east": "Philippine Sea",
+        "south": "Isabela",
+        "west": "Cordillera Mountains",
+        "north": "Balintang Channel and Babuyan Group of Islands"
+      },
+      "physical_features": [
+        "Cagayan River, the country's longest river",
+        "Central valley formed by the Cagayan River",
+        "Sierra Madre mountain range along the eastern coast"
+      ]
+    },
+    "tourist_attractions": [
+      {
+        "name": "Our Lady of Piat",
+        "type": "Religious Site",
+        "description": "Known as the Mother of Cagayan, this is a major pilgrimage center in Northern Luzon housing a centuries-old sacred image."
+      },
+      {
+        "name": "Palaui Island",
+        "type": "Island Destination",
+        "description": "Pristine island with dramatic coastlines and rich marine life."
+      },
+      {
+        "name": "Callao Cave",
+        "type": "Natural and Archaeological Site",
+        "description": "Limestone cave system known for the discovery of the famous Callao Man archaeological remains."
+      },
+      {
+        "name": "Buntun Bridge",
+        "type": "Landmark",
+        "description": "Iconic bridge spanning the Cagayan River in Tuguegarao."
+      },
+      {
+        "name": "Babuyan Claro",
+        "type": "Volcanic Island",
+        "description": "Volcanic island with lush landscapes and clear waters."
+      }
+    ],
+    "branding": {
+      "tourism_line": "Cagayan: Land of Smile and Beauty",
+      "promotional_message": "Explore the majestic peaks of the Sierra Madre and the tranquil flow of the mighty Cagayan River."
+    }
+  }
 }
