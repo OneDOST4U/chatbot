@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Province of Cagayan | Land of Smile and Beauty</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"/>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'cagayan-blue': '#1e3a5f',
+            'cagayan-blue-light': '#2d5a87',
+            'cagayan-green': '#16a34a',
+            'cagayan-yellow': '#eab308',
+            'cagayan-orange': '#ea580c',
+            'cagayan-peach': '#fed7aa',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .font-serif { font-family: 'Playfair Display', Georgia, serif; }
+    /* Slightly enhance heritage image: richer brick, sky, and foliage */
+    .heritage-img { filter: saturate(1.15) contrast(1.08); }
+  </style>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <img src="/img/cagayan.png" alt="Province of Cagayan" class="h-14 w-auto object-contain"/>
+        <img src="/img/dost.png" alt="DOST" class="h-14 w-auto object-contain"/>
+        <img src="/img/one-cagayan.png" alt="One Cagayan" class="h-14 w-auto object-contain"/>
+        <img src="/img/bagong-pilipinas.png" alt="Bagong Pilipinas" class="h-14 w-auto object-contain"/>
+      </a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="#history" class="text-sm font-medium text-slate-600 hover:text-cagayan-blue transition-colors">History</a>
+        <a href="#peoples" class="text-sm font-medium text-slate-600 hover:text-cagayan-blue transition-colors">Peoples</a>
+        <a href="#culture" class="text-sm font-medium text-slate-600 hover:text-cagayan-blue transition-colors">Culture</a>
+        <a href="#facts" class="text-sm font-medium text-slate-600 hover:text-cagayan-blue transition-colors">Facts</a>
+      </nav>
+      <a href="https://cagayan.gov.ph/" target="_blank" rel="noopener" class="bg-cagayan-green text-white px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-green-700 transition-colors">Visit Official Site</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/img/landing-page.jpg');"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70"></div>
+    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+      <p class="text-cagayan-yellow text-sm font-semibold uppercase tracking-[0.2em] mb-4">Pabaruen Ti Cagayan</p>
+      <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">Cagayan: Land of Smile and Beauty</h1>
+      <p class="text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto">Explore the majestic peaks of the Sierra Madre and the tranquil flow of the mighty Cagayan River.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="#explore" class="bg-cagayan-yellow text-slate-900 px-8 py-4 rounded-lg font-bold hover:bg-amber-400 transition-colors">EXPLORE THE VALLEY</a>
+        <a href="#learn" class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-slate-900 transition-colors">LEARN MORE</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Northeastern Jewel of Luzon -->
+  <section id="learn" class="py-20 md:py-28 bg-white">
+    <div class="max-w-4xl mx-auto px-4 md:px-8 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-cagayan-blue mb-8">Northeastern Jewel of Luzon</h2>
+      <p class="text-slate-600 leading-relaxed mb-6">
+        Cagayan is a province in the Philippines located in the Cagayan Valley region, covering the northeastern tip of Luzon. Its capital is Tuguegarao, the largest city of the province as well as the regional center of Region 2 (Cagayan Valley). It is about 431 kilometres northwest of Manila, and includes the Babuyan Islands to the north.
+      </p>
+      <p class="text-slate-600 leading-relaxed">
+        The province is bounded by the Philippine Sea on the east, Isabela on the south, the Cordillera Mountains on the west, and the Balintang Channel and Babuyan Group of Islands to the north. The central valley is formed by the country's longest river, the Cagayan, and the eastern coast is part of the Sierra Madre mountain range.
+      </p>
+    </div>
+  </section>
+
+  <!-- A Tapestry of Centuries -->
+  <section id="history" style="background: linear-gradient(135deg, #0b1d3a 0%, #12305e 50%, #0e2247 100%); padding: 5rem 0;">
+    <div class="max-w-6xl mx-auto px-4 md:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+
+        <!-- Text side -->
+        <div>
+          <!-- Label -->
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:1.25rem;">
+            <div style="width:36px; height:2px; background:#c9a84c;"></div>
+            <span style="color:#c9a84c; font-size:0.7rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase;">Our Legacy</span>
+          </div>
+
+          <h2 class="font-serif" style="font-size:clamp(2rem,4vw,3.2rem); font-weight:700; color:#f5efe0; line-height:1.15; margin-bottom:1.5rem;">
+            A Tapestry<br/>of Centuries
+          </h2>
+
+          <p style="color:#b8cce4; line-height:1.85; font-size:0.97rem; margin-bottom:2rem;">
+            Cagayan was one of the early provinces that existed during the Spanish colonial period. Called <em style="color:#e8d9b5; font-style:normal; font-weight:500;">La Provincia de Cagayan</em>, it was organized in 1583 by Spanish Royal Decree. Its capital was Nueva Segovia (present-day Lal-lo). The Spanish friars established mission posts and the Diocese of Nueva Segovia — the influence of the colonial era is still visible in the massive churches and heritage structures across the province.
+          </p>
+
+          <!-- Tags -->
+          <div style="display:flex; gap:0.6rem; flex-wrap:wrap;">
+            <span style="border:1px solid #c9a84c; color:#c9a84c; padding:0.35rem 1rem; border-radius:999px; font-size:0.78rem; font-weight:600; letter-spacing:0.05em;">Est. 1583</span>
+            <span style="border:1px solid rgba(184,204,228,0.35); color:#b8cce4; padding:0.35rem 1rem; border-radius:999px; font-size:0.78rem; font-weight:500;">Colonial Era</span>
+            <span style="border:1px solid rgba(184,204,228,0.35); color:#b8cce4; padding:0.35rem 1rem; border-radius:999px; font-size:0.78rem; font-weight:500;">Diocese of Nueva Segovia</span>
+          </div>
+        </div>
+
+        <!-- Image side -->
+        <div style="position:relative;">
+          <!-- Decorative gold frame offset -->
+          <div style="position:absolute; top:-12px; left:-12px; right:12px; bottom:12px; border:2px solid #c9a84c; border-radius:20px; opacity:0.45; pointer-events:none;"></div>
+          <div style="border-radius:16px; overflow:hidden; box-shadow:0 24px 64px rgba(0,0,0,0.55); position:relative;">
+            <img src="/img/stodomingo.jpg" alt="St. Dominic Parish Church, Cagayan" class="heritage-img" style="width:100%; height:380px; object-fit:cover; display:block;"/>
+            <!-- Caption bar -->
+            <div style="position:absolute; bottom:0; left:0; right:0; padding:1rem 1.25rem; background:linear-gradient(to top, rgba(0,0,0,0.72) 0%, transparent 100%);">
+              <p style="color:#e8d9b5; font-size:0.75rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; margin:0;">St. Dominic Parish Church · Cagayan</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Natural Wonders -->
+  <section id="explore" class="py-20 md:py-28 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4 md:px-8">
+      <h2 class="text-3xl md:text-4xl font-bold text-cagayan-blue mb-2">Natural Wonders</h2>
+      <p class="text-slate-600 mb-12">Explore the bountiful wonders of the Province of Cagayan.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <article class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+          <div class="h-48 bg-cover bg-center" style="background-image: url('/img/Palaui-Island.jpg');"></div>
+          <div class="p-5">
+            <h3 class="font-bold text-lg text-cagayan-blue">Palaui Island</h3>
+            <p class="text-slate-600 text-sm mt-1">Pristine island with dramatic coastlines and rich marine life.</p>
+          </div>
+        </article>
+        <article class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+          <div class="h-48 bg-cover bg-center" style="background-image: url('/img/callaocave.jpg');"></div>
+          <div class="p-5">
+            <h3 class="font-bold text-lg text-cagayan-blue">Callao Cave</h3>
+            <p class="text-slate-600 text-sm mt-1">Limestone caves and the famous Callao Man archaeological site.</p>
+          </div>
+        </article>
+        <article class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+          <div class="h-48 bg-cover bg-center" style="background-image: url('/img/buntun-bridge.jpg');"></div>
+          <div class="p-5">
+            <h3 class="font-bold text-lg text-cagayan-blue">Buntun Bridge</h3>
+            <p class="text-slate-600 text-sm mt-1">Iconic bridge spanning the Cagayan River in Tuguegarao.</p>
+          </div>
+        </article>
+        <article class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+          <div class="h-48 bg-cover bg-center" style="background-image: url('/img/babuyan-claro.webp');"></div>
+          <div class="p-5">
+            <h3 class="font-bold text-lg text-cagayan-blue">Babuyan Claro</h3>
+            <p class="text-slate-600 text-sm mt-1">Volcanic island with lush landscapes and clear waters.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vibrant Culture, Devout Heart -->
+  <section id="culture" style="background:#f0f4f8; padding:5rem 0;">
+    <div class="max-w-6xl mx-auto px-4 md:px-8">
+
+      <!-- Heading -->
+      <div style="text-align:center; margin-bottom:3rem;">
+        <span style="display:inline-block; background:#e8f4ee; color:#1a6b4a; font-size:0.7rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; padding:0.3rem 0.9rem; border-radius:999px; margin-bottom:1rem;">Rich Legacy</span>
+        <h2 class="font-serif" style="font-size:clamp(1.8rem,4vw,2.8rem); font-weight:700; color:#1a2332; line-height:1.2; margin:0 0 0.8rem;">Vibrant Culture, Devout Heart</h2>
+        <p style="color:#64748b; font-size:0.95rem; max-width:520px; margin:0 auto; line-height:1.7;">A rich tapestry of Ibanag, Itawis, and Ilocano heritage — shaped by centuries of faith, festival, and craftsmanship.</p>
+      </div>
+
+      <!-- 3-column cards -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.5rem; margin-bottom:1.5rem;">
+
+        <!-- Card 1: Spirituality -->
+        <div style="background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 2px 20px rgba(26,35,50,0.07);">
+          <div style="height:6px; background:linear-gradient(90deg,#d97706,#f59e0b);"></div>
+          <div style="position:relative;">
+            <img src="/img/stodomingo.jpg" alt="Spirituality" style="width:100%; height:160px; object-fit:cover; display:block;" class="heritage-img"/>
+            <div style="position:absolute; inset:0; background:linear-gradient(to top, rgba(30,20,10,0.55) 0%, transparent 60%);"></div>
+          </div>
+          <div style="padding:1.25rem 1.75rem 1.75rem;">
+            <h3 style="font-weight:700; color:#1a2332; font-size:1rem; margin:0 0 0.5rem;">Spirituality</h3>
+            <p style="font-size:0.85rem; color:#64748b; margin:0; line-height:1.65;">Faith and tradition at the heart of Cagayano life. The province is home to centuries-old churches and active pilgrimage routes.</p>
+          </div>
+        </div>
+
+        <!-- Card 2: Sambali Festival -->
+        <div style="background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 2px 20px rgba(26,35,50,0.07);">
+          <div style="height:6px; background:linear-gradient(90deg,#1a6b4a,#34d399);"></div>
+          <div style="position:relative;">
+            <img src="/img/sambali.jpg" alt="Sambali Festival" style="width:100%; height:160px; object-fit:cover; display:block;"/>
+            <div style="position:absolute; inset:0; background:linear-gradient(to top, rgba(10,46,26,0.55) 0%, transparent 60%);"></div>
+          </div>
+          <div style="padding:1.25rem 1.75rem 1.75rem;">
+            <h3 style="font-weight:700; color:#1a2332; font-size:1rem; margin:0 0 0.5rem;">Sambali Festival</h3>
+            <p style="font-size:0.85rem; color:#64748b; margin:0; line-height:1.65;">Annual celebration commemorating the founding of the province — a grand display of color, music, and cultural pride.</p>
+          </div>
+        </div>
+
+        <!-- Card 3: Our Lady of Piat -->
+        <div style="background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 2px 20px rgba(26,35,50,0.07);">
+          <div style="height:6px; background:linear-gradient(90deg,#1d4ed8,#60a5fa);"></div>
+          <div style="position:relative;">
+            <img src="/img/olop.jpg" alt="Our Lady of Piat" style="width:100%; height:160px; object-fit:cover; display:block;"/>
+            <div style="position:absolute; inset:0; background:linear-gradient(to top, rgba(15,25,50,0.55) 0%, transparent 60%);"></div>
+          </div>
+          <div style="padding:1.25rem 1.75rem 1.75rem;">
+            <h3 style="font-weight:700; color:#1a2332; font-size:1rem; margin:0 0 0.4rem;">Our Lady of Piat</h3>
+            <p style="font-size:0.85rem; color:#64748b; margin:0; line-height:1.65;">Mother of Cagayan — a major pilgrimage center of the North housing a centuries-old sacred image.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom info strip -->
+      <div style="background:#fff; border-radius:16px; padding:1.5rem 2rem; box-shadow:0 2px 16px rgba(26,35,50,0.06); display:flex; flex-wrap:wrap; gap:1.5rem; align-items:center;">
+        <p style="color:#475569; font-size:0.9rem; line-height:1.75; flex:1; min-width:260px; margin:0;">
+          Cagayan preserves a rich blend of <strong style="color:#1a2332;">Ibanag, Itawis, and Ilocano</strong> heritage. Its culture reflects native, oriental, and colonial influences through traditional weaving, craftsmanship, and vibrant festivals celebrated across the province.
+        </p>
+        <div style="display:flex; gap:0.6rem; flex-wrap:wrap; flex-shrink:0;">
+          <span style="background:#fef9ec; color:#92400e; border:1px solid #fde68a; padding:0.35rem 0.85rem; border-radius:999px; font-size:0.78rem; font-weight:600;">🧵 Weaving</span>
+          <span style="background:#edfaf4; color:#065f46; border:1px solid #a7f3d0; padding:0.35rem 0.85rem; border-radius:999px; font-size:0.78rem; font-weight:600;">🌏 Heritage</span>
+          <span style="background:#eff6ff; color:#1e40af; border:1px solid #bfdbfe; padding:0.35rem 0.85rem; border-radius:999px; font-size:0.78rem; font-weight:600;">🎊 Festivals</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Cagayan at a Glance -->
+  <section id="facts" class="py-20 md:py-28 bg-cagayan-blue">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-14">Cagayan at a Glance</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+        <div>
+          <p class="text-4xl md:text-5xl font-bold text-white">9,398</p>
+          <p class="text-white/90 text-sm mt-1">Total Area km²</p>
+        </div>
+        <div>
+          <p class="text-4xl md:text-5xl font-bold text-white">1.2M+</p>
+          <p class="text-white/90 text-sm mt-1">Population</p>
+        </div>
+        <div>
+          <p class="text-4xl md:text-5xl font-bold text-white">28</p>
+          <p class="text-white/90 text-sm mt-1">Municipalities</p>
+        </div>
+        <div>
+          <p class="text-4xl md:text-5xl font-bold text-white">4+</p>
+          <p class="text-white/90 text-sm mt-1">Natural Wonders</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background: linear-gradient(135deg, #0b1d3a 0%, #0f2a4a 50%, #0a1e35 100%); color:#fff; padding:4rem 0 0 0; overflow:hidden;">
+    <div class="max-w-6xl mx-auto px-4 md:px-8">
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12" style="padding-bottom:3rem;">
+
+        <!-- Brand -->
+        <div class="md:col-span-1">
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:1rem;">
+            <img src="/img/cagayan.png" alt="Cagayan" style="height:40px; width:auto; object-fit:contain;"/>
+            <div>
+              <p style="font-size:0.7rem; color:#94a3b8; margin:0;">Province of</p>
+              <p style="font-size:1.1rem; font-weight:700; color:#fff; margin:0;">Cagayan</p>
+            </div>
+          </div>
+          <p style="color:#94a3b8; font-size:0.85rem; line-height:1.75; max-width:260px;">Official portal of the Province of Cagayan. Land of Smile and Beauty — showcasing our heritage, nature, and people.</p>
+          <p style="color:#475569; font-size:0.72rem; margin-top:1.5rem;">© 2026 Province of Cagayan. All rights reserved.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h3 style="font-size:0.68rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#c9a84c; margin-bottom:1.25rem;">Quick Links</h3>
+          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.75rem;">
+            <li><a href="https://endlessfuncagayan.com/" target="_blank" rel="noopener" style="color:#cbd5e1; font-size:0.88rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#cbd5e1'">🏖️ Tourism Office</a></li>
+            <li><a href="https://cagayan.gov.ph/category/news-and-events/" target="_blank" rel="noopener" style="color:#cbd5e1; font-size:0.88rem; text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#cbd5e1'">📰 Latest News</a></li>
+            <li><a href="https://cagayan.gov.ph/" target="_blank" rel="noopener" style="color:#cbd5e1; font-size:0.88rem; text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#cbd5e1'">🌐 Cagayan Go</a></li>
+          </ul>
+        </div>
+
+        <!-- Visit Us -->
+        <div>
+          <h3 style="font-size:0.68rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#c9a84c; margin-bottom:1.25rem;">Visit Us</h3>
+          <p style="color:#94a3b8; font-size:0.85rem; line-height:1.7;">Provincial Capitol<br/>Tuguegarao City, Cagayan<br/>Philippines 3500</p>
+          <div style="display:flex; gap:0.75rem; margin-top:1.25rem;">
+            <a href="https://www.facebook.com/cagayanPIOnow" target="_blank" rel="noopener"
+              style="width:38px; height:38px; border-radius:50%; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.12); display:flex; align-items:center; justify-content:center; color:#cbd5e1; font-size:0.9rem; text-decoration:none; transition:background 0.2s;"
+              onmouseover="this.style.background='#1877f2'" onmouseout="this.style.background='rgba(255,255,255,0.08)'" aria-label="Facebook">f</a>
+          </div>
+        </div>
+
+      </div>
+
+    <!-- Bottom bar — full width outside container -->
+    <div style="background:#060f1e; padding:1rem 2rem; display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:1rem; margin-top:2.5rem;">
+      <img src="/img/dost.png" alt="DOST R02" style="height:30px; width:auto; object-fit:contain; filter:brightness(1.1);"/>
+      <div style="width:1px; height:20px; background:rgba(255,255,255,0.15);"></div>
+      <p style="margin:0; font-size:0.85rem; color:#94a3b8; letter-spacing:0.01em;">
+        Developed by <strong style="color:#fff; font-weight:600;">DOST Region II</strong>
+        <span style="color:#475569;"> · Department of Science and Technology</span>
+      </p>
+    </div>
+
+    </div>
+  </footer>
+
+  <!-- DOST R02 Chatbot Widget -->
+  <div id="dost-chat-widget">
+    <div id="dost-fab-row">
+      <div id="dost-fab-wrap">
+        <!-- Speech bubble pointing down to robot head -->
+        <div id="dost-thought-bubble">
+          askTAY-EGAY
+        </div>
+        <button type="button" id="dost-chat-fab" aria-label="Open chat">
+          <img src="/img/chatbot-profile.png" alt="askTAY-EGAY" style="width:42px; height:42px; object-fit:contain; display:block;"/>
+        </button>
+      </div>
+    </div>
+    <div id="dost-chat-popup">
+      <div class="dost-chat-popup-header">
+        <div class="dost-chat-popup-header-center">
+          <img src="/img/ask-egay.png" alt="askTAY-EGAY" class="dost-chat-popup-header-logo"/>
+          <span class="dost-chat-popup-header-tagline">Ask anything about DOST R02 and Cagayan</span>
+        </div>
+        <button type="button" id="dost-chat-close" aria-label="Close chat">&times;</button>
+      </div>
+      <iframe id="dost-chat-iframe" src="/embed" title="Chat"></iframe>
+    </div>
+  </div>
+  <style>
+    /* ── Widget container (FAB) ── */
+    #dost-chat-widget {
+      position: fixed; bottom: 20px; right: 20px; z-index: 9999;
+      font-family: Inter, sans-serif;
+    }
+    #dost-fab-row {
+      display: flex; align-items: flex-end; gap: 10px; justify-content: flex-end;
+    }
+    #dost-fab-wrap {
+      position: relative; display: flex; flex-direction: column; align-items: center;
+    }
+    /* Speech bubble pointing DOWN toward robot head */
+    #dost-thought-bubble {
+      position: relative;
+      background: #fff;
+      border-radius: 14px;
+      padding: 7px 14px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #0f2044;
+      white-space: nowrap;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      margin-bottom: 10px;
+      animation: dost-bob 3s ease-in-out infinite;
+      letter-spacing: 0.01em;
+    }
+    /* Downward triangle tail pointing to robot head */
+    #dost-thought-bubble::after {
+      content: '';
+      position: absolute;
+      bottom: -9px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent;
+      border-top: 10px solid #fff;
+      filter: drop-shadow(0 3px 3px rgba(0,0,0,0.08));
+    }
+
+    @keyframes dost-bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    /* ── FAB button ── */
+    #dost-chat-fab {
+      width: 60px; height: 60px; border-radius: 50%; border: none; cursor: pointer;
+      background: #ffffff;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.18);
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+      padding: 0;
+    }
+    #dost-chat-fab:hover { transform: scale(1.08); box-shadow: 0 6px 24px rgba(0,0,0,0.22); }
+
+    /* ── Popup – mobile: full screen ── */
+    #dost-chat-popup {
+      display: none;
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      width: 100%; height: 100%;
+      background: #fff; border-radius: 0; box-shadow: none;
+      overflow: hidden; flex-direction: column; z-index: 10000;
+    }
+    #dost-chat-popup.is-open { display: flex; }
+
+    /* ── Popup – tablet/desktop (≥ 520px): anchored bottom-right above FAB ── */
+    @media (min-width: 520px) {
+      #dost-chat-popup {
+        top: auto; left: auto;
+        bottom: 84px; right: 20px;
+        width: 370px;
+        height: min(82vh, 580px);
+        border-radius: 16px;
+        box-shadow: 0 8px 36px rgba(0,0,0,0.18);
+      }
+    }
+    @media (min-width: 1024px) {
+      #dost-chat-popup {
+        width: 390px;
+        height: min(85vh, 620px);
+      }
+    }
+
+    /* ── Header – compact ── */
+    .dost-chat-popup-header {
+      padding: 8px 12px 10px 12px;
+      min-height: 80px;
+      background: #a82400;
+      display: flex; align-items: center; justify-content: flex-end;
+      position: relative; flex-shrink: 0;
+      box-sizing: border-box;
+    }
+    .dost-chat-popup-header-center {
+      position: absolute; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center;
+      gap: 3px; pointer-events: none; width: max-content; max-width: calc(100% - 72px);
+    }
+    .dost-chat-popup-header-logo {
+      height: 44px; width: auto; object-fit: contain; display: block; flex-shrink: 0;
+    }
+    .dost-chat-popup-header-tagline {
+      color: #fff; font-size: 10px; font-weight: 500;
+      text-align: center; line-height: 1.4;
+      padding: 0 4px; flex-shrink: 0;
+    }
+    #dost-chat-close {
+      background: none; border: none; color: #fff;
+      font-size: 20px; cursor: pointer; line-height: 1;
+      padding: 4px 6px; border-radius: 6px;
+      position: relative; z-index: 1;
+      transition: background 0.15s;
+    }
+    #dost-chat-close:hover { background: rgba(255,255,255,0.15); }
+
+    /* ── Iframe ── */
+    #dost-chat-iframe { flex: 1; width: 100%; height: 100%; border: none; min-height: 0; display: block; }
+  </style>
+  <script>
+    (function() {
+      var fab = document.getElementById('dost-chat-fab');
+      var label = document.getElementById('dost-fab-label');
+      var popup = document.getElementById('dost-chat-popup');
+      var close = document.getElementById('dost-chat-close');
+      var bubble = document.getElementById('dost-thought-bubble');
+      function openChat() {
+        popup.classList.add('is-open');
+        if (bubble) bubble.style.display = 'none';
+      }
+      function closeChat() {
+        popup.classList.remove('is-open');
+        if (bubble) bubble.style.display = '';
+      }
+      if (fab && popup) {
+        fab.addEventListener('click', function() {
+          if (popup.classList.contains('is-open')) closeChat();
+          else openChat();
+        });
+        if (close) close.addEventListener('click', closeChat);
+      }
+    })();
+  </script>
+</body>
+</html>

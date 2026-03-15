@@ -393,3 +393,253 @@ body {
   }
 }
 
+/* ── Embed layout (popup / iframe) – fill iframe, only chat area scrolls ── */
+.dost-embed-page {
+  width: 100%;
+  height: 100vh;
+  min-height: 0;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0.35rem;
+  background: #f4f4f5;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Tablet+ */
+@media (min-width: 480px) {
+  .dost-embed-page { padding: 0.5rem; }
+}
+
+.dost-embed-card {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.65rem;
+  gap: 0.4rem;
+  background: #ffffff;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-radius: 0.85rem;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media (min-width: 480px) {
+  .dost-embed-card {
+    padding: 0.75rem 1rem;
+    gap: 0.5rem;
+    border-radius: 1rem;
+  }
+}
+
+.dost-embed-page .chat-row-assistant .chat-avatar {
+  background: transparent;
+}
+.dost-embed-page .dost-chatbot {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem 0.5rem;
+  background: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.65rem;
+}
+
+@media (min-width: 480px) {
+  .dost-embed-page .dost-chatbot {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.75rem;
+  }
+}
+
+.dost-embed-page .chat-window {
+  flex: 1;
+  min-height: 0;
+  max-height: none;
+  overflow-y: auto;
+}
+.dost-embed-page .dost-input-row,
+.dost-embed-page .mini-cards-row,
+.dost-embed-page .dost-embed-footer {
+  flex-shrink: 0;
+}
+.dost-embed-footer {
+  font-size: 0.6rem;
+  margin-top: 0;
+  padding-top: 0.3rem;
+  line-height: 1.3;
+}
+
+@media (min-width: 480px) {
+  .dost-embed-footer { font-size: 0.65rem; padding-top: 0.35rem; }
+}
+
+.dost-embed-page .dost-input-row {
+  gap: 0.4rem;
+}
+.dost-embed-page .dost-text-input {
+  padding: 0.35rem 0.6rem;
+  font-size: 0.82rem;
+}
+/* Prevent iOS zoom on focus */
+@media (max-width: 479px) {
+  .dost-embed-page .dost-text-input { font-size: 16px; }
+}
+.dost-embed-page .btn-send {
+  padding: 0.35rem 0.45rem;
+  border-radius: 8px;
+  min-width: auto;
+}
+.dost-embed-page .btn-send svg {
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+.dost-embed-page .btn.secondary {
+  padding: 0.3rem 0.55rem;
+  font-size: 0.78rem;
+}
+.dost-embed-page .chat-empty-widget {
+  padding: 0;
+}
+
+/* Mini cards – compact */
+.dost-embed-page .mini-cards-row {
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+.dost-embed-page .mini-card {
+  padding: 0.25rem 0.45rem;
+  font-size: 0.72rem;
+  border-radius: 8px;
+}
+.dost-embed-page .mini-card-text {
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+/* Chat bubbles */
+.dost-embed-page .chat-bubble {
+  max-width: min(75%, 340px);
+  word-break: break-word;
+  font-size: 0.85rem;
+}
+@media (max-width: 479px) {
+  .dost-embed-page .chat-bubble { max-width: 80%; }
+}
+
+/* Root page: full-viewport iframe for Cagayan landing (landing.html has its own widget) */
+.dost-landing-frame {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.dost-landing-iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Landing only (legacy): logos + title, no chat card */
+.dost-landing-only {
+  padding-bottom: 6rem;
+}
+.dost-landing-hint {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin: 0.5rem 0 0 0;
+  text-align: center;
+}
+.dost-widget-popup-header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.dost-widget-popup-header-text strong {
+  font-size: 14px;
+}
+.dost-widget-popup-header-sub {
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.95;
+}
+
+.dost-widget {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.dost-widget-fab {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #e85c0d;
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(232, 92, 13, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.dost-widget-fab:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 24px rgba(232, 92, 13, 0.5);
+}
+.dost-widget-popup {
+  display: none;
+  position: absolute;
+  bottom: 72px;
+  right: 0;
+  width: 400px;
+  height: 580px;
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 120px);
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  flex-direction: column;
+}
+.dost-widget-popup.is-open {
+  display: flex;
+}
+.dost-widget-popup-header {
+  padding: 12px 16px;
+  background: #a82400;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.dost-widget-close {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 4px;
+}
+.dost-widget-iframe {
+  flex: 1;
+  width: 100%;
+  border: none;
+  min-height: 480px;
+}
+

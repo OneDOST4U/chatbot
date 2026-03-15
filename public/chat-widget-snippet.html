@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DOST R02 Chat Widget - Copy this snippet</title>
+  <style> body { font-family: system-ui, sans-serif; padding: 2rem; max-width: 720px; margin: 0 auto; } pre { background: #f1f5f9; padding: 1rem; overflow-x: auto; font-size: 12px; } code { background: #e2e8f0; padding: 2px 6px; border-radius: 4px; } h1 { font-size: 1.25rem; } p { color: #475569; } </style>
+</head>
+<body>
+  <h1>DOST R02 Chat Widget Snippet</h1>
+  <p>Paste the code below before <code>&lt;/body&gt;</code> on your Cagayan landing page. It adds a floating chat button that opens the chatbot in a popup.</p>
+  <p><strong>If your chatbot is hosted at a different URL</strong>, replace <code>https://dostr02chatbot.vercel.app</code> in the iframe <code>src</code> with your URL.</p>
+  <pre><code>&lt;!-- DOST R02 Chatbot Widget --&gt;
+&lt;div id="dost-chat-widget"&gt;
+  &lt;button type="button" id="dost-chat-fab" aria-label="Open chat"&gt;
+    &lt;svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"&gt;
+      &lt;path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"&gt;&lt;/path&gt;
+    &lt;/svg&gt;
+  &lt;/button&gt;
+  &lt;div id="dost-chat-popup"&gt;
+    &lt;div class="dost-chat-popup-header"&gt;
+      &lt;span&gt;DOST R02 &amp; Cagayan Assistant&lt;/span&gt;
+      &lt;button type="button" id="dost-chat-close" aria-label="Close chat"&gt;&amp;times;&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;iframe id="dost-chat-iframe" src="https://dostr02chatbot.vercel.app/embed" title="Chat"&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+  #dost-chat-widget { position: fixed; bottom: 24px; right: 24px; z-index: 9999; font-family: Inter, sans-serif; }
+  #dost-chat-fab {
+    width: 56px; height: 56px; border-radius: 50%; border: none; cursor: pointer;
+    background: #e85c0d; color: #fff; box-shadow: 0 4px 20px rgba(232, 92, 13, 0.45);
+    display: flex; align-items: center; justify-content: center; transition: transform 0.2s, box-shadow 0.2s;
+  }
+  #dost-chat-fab:hover { transform: scale(1.05); box-shadow: 0 6px 24px rgba(232, 92, 13, 0.5); }
+  #dost-chat-popup {
+    display: none; position: absolute; bottom: 72px; right: 0;
+    width: 400px; height: 580px; max-width: calc(100vw - 48px); max-height: calc(100vh - 120px);
+    background: #fff; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+    overflow: hidden; flex-direction: column;
+  }
+  #dost-chat-popup.is-open { display: flex; }
+  .dost-chat-popup-header {
+    padding: 12px 16px; background: #a82400; color: #fff; font-weight: 700; font-size: 14px;
+    display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
+  }
+  #dost-chat-close { background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; line-height: 1; padding: 0 4px; }
+  #dost-chat-iframe { flex: 1; width: 100%; border: none; min-height: 480px; }
+&lt;/style&gt;
+&lt;script&gt;
+  (function() {
+    var fab = document.getElementById('dost-chat-fab');
+    var popup = document.getElementById('dost-chat-popup');
+    var close = document.getElementById('dost-chat-close');
+    if (fab && popup) {
+      fab.addEventListener('click', function() { popup.classList.toggle('is-open'); });
+      if (close) close.addEventListener('click', function() { popup.classList.remove('is-open'); });
+    }
+  })();
+&lt;/script&gt;</code></pre>
+</body>
+</html>

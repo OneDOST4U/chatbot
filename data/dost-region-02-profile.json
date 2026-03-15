@@ -125,6 +125,18 @@
     {
       "question": "Who is the Provincial Director of PSTO Cagayan?",
       "answer": "The Provincial Director of PSTO Cagayan is Engr. Sylvia T. Lacambra."
+    },
+    {
+      "question": "What is askTAY-EGAY?",
+      "answer": "askTAY-EGAY is an AI-powered chatbot developed by the Department of Science and Technology Region II (DOST R02). It is designed to assist users with questions about DOST R02 programs, services, and information about the Province of Cagayan."
+    },
+    {
+      "question": "Who developed askTAY-EGAY?",
+      "answer": "askTAY-EGAY was developed by DOST R02 — the Department of Science and Technology Region II. It serves as a digital assistant for inquiries related to DOST R02 and the Province of Cagayan."
+    },
+    {
+      "question": "What can askTAY-EGAY do?",
+      "answer": "askTAY-EGAY can answer questions about DOST R02 programs, projects, and services, as well as provide information about the Province of Cagayan including its tourism, history, culture, census data, and government offices. It was developed by DOST R02 to make government information more accessible to citizens."
     }
   ]
 }
