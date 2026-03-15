@@ -456,7 +456,7 @@ const FALLBACK_SERVICES_ANSWER =
   "**Contact:** DOST Region II, Regional Government Center, Carig Sur, Tuguegarao City. Phone: 0929 621 6871. Mon–Fri 8 AM–5 PM. https://region2.dost.gov.ph/";
 
 const FALLBACK_GOVERNOR_ANSWER =
-  "**Cagayan province:** As of 2026, the governor of Cagayan is **Edgar 'Manong Egay' Aglipay**. The vice governor is **Manuel Mamba**.\n\nFor other provinces in Region II (Batanes, Isabela, Nueva Vizcaya, Quirino), say which province you mean.";
+  "**Cagayan province:** The current governor of Cagayan is **Edgar \"Egay\" Batalla Aglipay** (born September 13, 1948). The vice governor is **Manuel Mamba**.\n\nFor other provinces in Region II (Batanes, Isabela, Nueva Vizcaya, Quirino), say which province you mean.";
 
 const FALLBACK_IHUB_ANSWER =
   "**Innovation Hubs (iHubs)** – *Igniting Ideas, Fueling Innovation*\n\n" +
